@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="V2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/MCU/robot/V2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="V2.elf">
+				<Option output="E:/MCU/robot/V2/cmake-build-debug/V2.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MCU/robot/V2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="E:/MCU/robot/V2/Inc"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/CMSIS/Include"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/task/App"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/task/Usart"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/task/Motor"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/task/Timer"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/printf"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/kinematics"/>
+					<Add directory="d:\arm-none-eabi-gcc\2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\arm-none-eabi-gcc\2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\arm-none-eabi-gcc\2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\arm-none-eabi-gcc\2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\arm-none-eabi-gcc\2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\arm-none-eabi-gcc\2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 V2.elf"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="V2.elf/fast">
+				<Option output="E:/MCU/robot/V2/cmake-build-debug/V2.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MCU/robot/V2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F411xE"/>
+					<Add directory="E:/MCU/robot/V2/Inc"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/CMSIS/Include"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/task/App"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/task/Usart"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/task/Motor"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/task/Timer"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/printf"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/kinematics"/>
+					<Add directory="d:\arm-none-eabi-gcc\2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\arm-none-eabi-gcc\2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\arm-none-eabi-gcc\2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\arm-none-eabi-gcc\2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\arm-none-eabi-gcc\2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\arm-none-eabi-gcc\2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 V2.elf/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/MCU/robot/V2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/MCU/robot/V2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/MCU/robot/V2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/cachel1_armv7.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/cmsis_armclang_ltm.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_armv81mml.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_cm35p.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_cm55.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_cm85.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/core_starmc1.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/pac_armv81.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/pmu_armv8.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/CMSIS/LICENSE.txt">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/FreeRTOS.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/FreeRTOSConfig.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/StackMacros.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/atomic.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/croutine.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/deprecated_definitions.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/event_groups.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/list.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/message_buffer.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/mpu_prototypes.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/mpu_wrappers.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/portable.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/projdefs.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/queue.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/semphr.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/stack_macros.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/stream_buffer.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/task.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/timers.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/portable/Keil/See-also-the-RVDS-directory.txt">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/portmacro.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/croutine.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/event_groups.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/list.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/queue.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/tasks.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/timers.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/Step_Motor/motor.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/Step_Motor/motor.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/kinematics/kinematics.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/kinematics/kinematics.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/printf/printf.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/task/App/app_task.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/task/App/app_task.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/task/Timer/timer_task.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/task/Timer/timer_task.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/STM32F411CEUX_FLASH.ld">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Src/gpio.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Src/i2c.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Src/main.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Src/stm32f4xx_hal_msp.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Src/stm32f4xx_hal_timebase_tim.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Src/stm32f4xx_it.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Src/syscalls.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Src/sysmem.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Src/system_stm32f4xx.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Src/tim.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Src/usart.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Startup/startup_stm32f411ceux.s">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

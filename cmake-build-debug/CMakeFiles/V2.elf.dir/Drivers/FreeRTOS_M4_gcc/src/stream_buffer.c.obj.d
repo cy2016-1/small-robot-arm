@@ -1,0 +1,34 @@
+CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c.obj: \
+ E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c \
+ d:\arm-none-eabi-gcc\2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\stdint.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\machine\_default_types.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\features.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\_newlib_version.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\_intsup.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\_stdint.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\string.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\_ansi.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\newlib.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\config.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\machine\ieeefp.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\reent.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\_ansi.h \
+ d:\arm-none-eabi-gcc\2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\_types.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\machine\_types.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\lock.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\cdefs.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\_locale.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\strings.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\string.h \
+ E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/FreeRTOS.h \
+ E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/FreeRTOSConfig.h \
+ E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/projdefs.h \
+ E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/portable.h \
+ E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/deprecated_definitions.h \
+ E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F/portmacro.h \
+ E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/mpu_wrappers.h \
+ E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/task.h \
+ E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/list.h \
+ E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/stream_buffer.h
