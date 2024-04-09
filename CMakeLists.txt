@@ -61,6 +61,11 @@ set(USR_INC
         Drivers/bsp/oled_u8g2_hw_iic/oled_driver
         Drivers/bsp/printf
         Drivers/bsp/kinematics
+        Drivers/bsp/dsplib/Core/Inc
+        Drivers/bsp/dsplib/DSP/Inc/dsp
+        Drivers/bsp/dsplib/DSP/Inc
+        Drivers/bsp/dsplib/DSP/PrivateInclude
+
 )
 
 set(USR_SRC
@@ -74,6 +79,8 @@ set(USR_SRC
         Drivers/bsp/oled_u8g2_hw_iic/csrc
         Drivers/bsp/oled_u8g2_hw_iic/oled_driver
         Drivers/bsp/kinematics
+        Drivers/bsp/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c
+        Drivers/bsp/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c
 
 )
 
