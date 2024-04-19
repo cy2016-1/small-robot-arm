@@ -92,4 +92,5 @@ CMakeFiles/V2.elf.dir/Src/gpio.c.obj: E:\MCU\robot\V2\Src\gpio.c \
  E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/timers.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\stdlib.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\machine\stdlib.h \
- d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\alloca.h
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\alloca.h \
+ E:\MCU\robot\V2\Drivers\bsp\task\Usart/usart_task.h

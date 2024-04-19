@@ -95,4 +95,5 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.obj: \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\stdlib.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\machine\stdlib.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\alloca.h \
+ E:\MCU\robot\V2\Drivers\bsp\task\Usart/usart_task.h \
  E:\MCU\robot\V2\Drivers\bsp\task\Motor/motor_task.h

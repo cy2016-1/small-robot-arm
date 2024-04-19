@@ -59,6 +59,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define LED_Pin GPIO_PIN_13
 #define LED_GPIO_Port GPIOC
+#define RELAY_Pin GPIO_PIN_15
+#define RELAY_GPIO_Port GPIOC
 #define PUL5_Pin GPIO_PIN_0
 #define PUL5_GPIO_Port GPIOA
 #define EN5_Pin GPIO_PIN_1
@@ -122,6 +124,7 @@ void Error_Handler(void);
 #include "semphr.h"
 #include "timers.h"
 #include "stdlib.h"
+#include "usart_task.h"
 
 /* USER CODE END Private defines */
 

@@ -75,11 +75,11 @@ void App_Run_Task_Init(void)
 
   //创建电机运行任务
   xTaskCreate(Motor1_Run_Task, "Motor1_Run_Task", 128, NULL, 3, &Motor1_Run_Task_Handle);
-  xTaskCreate(Motor2_Run_Task, "Motor2_Run_Task", 128, NULL, 3, &Motor2_Run_Task_Handle);
-  xTaskCreate(Motor3_Run_Task, "Motor3_Run_Task", 128, NULL, 3, &Motor3_Run_Task_Handle);
-  xTaskCreate(Motor4_Run_Task, "Motor4_Run_Task", 128, NULL, 3, &Motor4_Run_Task_Handle);
-  xTaskCreate(Motor5_Run_Task, "Motor5_Run_Task", 128, NULL, 3, &Motor5_Run_Task_Handle);
-  xTaskCreate(Motor6_Run_Task, "Motor6_Run_Task", 128, NULL, 3, &Motor6_Run_Task_Handle);
+//  xTaskCreate(Motor2_Run_Task, "Motor2_Run_Task", 128, NULL, 3, &Motor2_Run_Task_Handle);
+//  xTaskCreate(Motor3_Run_Task, "Motor3_Run_Task", 128, NULL, 3, &Motor3_Run_Task_Handle);
+//  xTaskCreate(Motor4_Run_Task, "Motor4_Run_Task", 128, NULL, 3, &Motor4_Run_Task_Handle);
+//  xTaskCreate(Motor5_Run_Task, "Motor5_Run_Task", 128, NULL, 3, &Motor5_Run_Task_Handle);
+//  xTaskCreate(Motor6_Run_Task, "Motor6_Run_Task", 128, NULL, 3, &Motor6_Run_Task_Handle);
 
 } 
 

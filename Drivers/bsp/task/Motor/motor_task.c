@@ -47,7 +47,7 @@ void Motor1_Init_Task(void *pvParameters)
       flag = 1;
       Motor[1].en = 0;
       HAL_TIM_PWM_Stop(&htim1,TIM_CHANNEL_1);
-      Motor[1].now_pulse = 17500;
+      Motor[1].now_pulse = 12000;
       Motor[1].target_pulse = 0;
       Motor[1].en = 1;
       HAL_TIM_PWM_Start_IT(&htim1,TIM_CHANNEL_1);

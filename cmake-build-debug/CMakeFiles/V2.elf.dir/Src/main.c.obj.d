@@ -93,6 +93,7 @@ CMakeFiles/V2.elf.dir/Src/main.c.obj: E:\MCU\robot\V2\Src\main.c \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\stdlib.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\machine\stdlib.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\alloca.h \
+ E:\MCU\robot\V2\Drivers\bsp\task\Usart/usart_task.h \
  E:\MCU\robot\V2\Inc/i2c.h E:\MCU\robot\V2\Inc/tim.h \
  E:\MCU\robot\V2\Inc/usart.h E:\MCU\robot\V2\Inc/gpio.h \
  E:\MCU\robot\V2\Drivers\bsp\printf/printf.h \

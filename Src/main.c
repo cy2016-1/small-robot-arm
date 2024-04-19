@@ -102,12 +102,10 @@ int main(void)
   MX_TIM10_Init();
   /* USER CODE BEGIN 2 */
 
-  extern uint8_t usart1_rec;
-
   //创建任务
-  App_Init_Task_Init();
+//  App_Init_Task_Init();
 
-//  App_Run_Task_Init();
+  App_Run_Task_Init();
 
   //开启硬件定时器
   HAL_TIM_Base_Start_IT(&htim10);
@@ -209,7 +207,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
   {
     static int cnt = 0;
     cnt++;
-    if(cnt %100 == 0)
+    if(cnt %1000 == 0)
     {
       HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
       cnt = 0;
