@@ -44,7 +44,7 @@
 					<Add directory="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc"/>
 					<Add directory="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver"/>
 					<Add directory="E:/MCU/robot/V2/Drivers/bsp/printf"/>
-					<Add directory="E:/MCU/robot/V2/Drivers/bsp/kinematics"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/task/kinematics"/>
 					<Add directory="E:/MCU/robot/V2/dsplib/Core/Inc"/>
 					<Add directory="E:/MCU/robot/V2/dsplib/DSP/Inc"/>
 					<Add directory="E:/MCU/robot/V2/dsplib/DSP/PrivateInclude"/>
@@ -89,7 +89,7 @@
 					<Add directory="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc"/>
 					<Add directory="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver"/>
 					<Add directory="E:/MCU/robot/V2/Drivers/bsp/printf"/>
-					<Add directory="E:/MCU/robot/V2/Drivers/bsp/kinematics"/>
+					<Add directory="E:/MCU/robot/V2/Drivers/bsp/task/kinematics"/>
 					<Add directory="E:/MCU/robot/V2/dsplib/Core/Inc"/>
 					<Add directory="E:/MCU/robot/V2/dsplib/DSP/Inc"/>
 					<Add directory="E:/MCU/robot/V2/dsplib/DSP/PrivateInclude"/>
@@ -485,12 +485,6 @@
 		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/Step_Motor/motor.h">
 			<Option target="V2.elf"/>
 		</Unit>
-		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/kinematics/kinematics.c">
-			<Option target="V2.elf"/>
-		</Unit>
-		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/kinematics/kinematics.h">
-			<Option target="V2.elf"/>
-		</Unit>
 		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2.h">
 			<Option target="V2.elf"/>
 		</Unit>
@@ -642,6 +636,12 @@
 			<Option target="V2.elf"/>
 		</Unit>
 		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.c">
+			<Option target="V2.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h">
 			<Option target="V2.elf"/>
 		</Unit>
 		<Unit filename="E:/MCU/robot/V2/STM32F411CEUX_FLASH.ld">

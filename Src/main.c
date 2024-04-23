@@ -103,19 +103,21 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   //创建任务
-//  App_Init_Task_Init();
+  App_Init_Task_Init();
 
-  App_Run_Task_Init();
+//  App_Run_Task_Init();
 
   //开启硬件定时器
   HAL_TIM_Base_Start_IT(&htim10);
 
   //开启串口接收中断
   HAL_UART_Receive_IT(&huart1,&usart1_rec,1);
+  HAL_UART_Receive_IT(&huart6,&usart6_rec,1);
 
   //串口测试
-  HAL_UART_Transmit(&huart1,(uint8_t *)"Hello!\r\n",10,0xffffffff);
-  HAL_UART_Transmit(&huart6,(uint8_t *)"Hello!\r\n",10,0xffffffff);
+  HAL_UART_Transmit(&huart1,(uint8_t *)"USART1 OK!\r\n",12,0xffffffff);
+  HAL_UART_Transmit(&huart6,(uint8_t *)"USART6 OK!\r\n",12,0xffffffff);
+  printf("printf OK!\r\n");
   //开启调度器
   vTaskStartScheduler();
 
@@ -207,7 +209,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
   {
     static int cnt = 0;
     cnt++;
-    if(cnt %1000 == 0)
+    if(cnt %100 == 0)
     {
       HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
       cnt = 0;

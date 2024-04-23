@@ -23,6 +23,6 @@ CMake Deprecation Warning:
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (5.1s)
+-- Configuring done (4.4s)
 -- Generating done (0.1s)
 -- Build files have been written to: E:/MCU/robot/V2/cmake-build-debug

@@ -800,30 +800,6 @@ Drivers/bsp/Step_Motor/motor.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\V2.elf.dir\build.make CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.s
 .PHONY : Drivers/bsp/Step_Motor/motor.c.s
 
-Drivers/bsp/kinematics/kinematics.obj: Drivers/bsp/kinematics/kinematics.c.obj
-.PHONY : Drivers/bsp/kinematics/kinematics.obj
-
-# target to build an object file
-Drivers/bsp/kinematics/kinematics.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\V2.elf.dir\build.make CMakeFiles/V2.elf.dir/Drivers/bsp/kinematics/kinematics.c.obj
-.PHONY : Drivers/bsp/kinematics/kinematics.c.obj
-
-Drivers/bsp/kinematics/kinematics.i: Drivers/bsp/kinematics/kinematics.c.i
-.PHONY : Drivers/bsp/kinematics/kinematics.i
-
-# target to preprocess a source file
-Drivers/bsp/kinematics/kinematics.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\V2.elf.dir\build.make CMakeFiles/V2.elf.dir/Drivers/bsp/kinematics/kinematics.c.i
-.PHONY : Drivers/bsp/kinematics/kinematics.c.i
-
-Drivers/bsp/kinematics/kinematics.s: Drivers/bsp/kinematics/kinematics.c.s
-.PHONY : Drivers/bsp/kinematics/kinematics.s
-
-# target to generate assembly for a file
-Drivers/bsp/kinematics/kinematics.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\V2.elf.dir\build.make CMakeFiles/V2.elf.dir/Drivers/bsp/kinematics/kinematics.c.s
-.PHONY : Drivers/bsp/kinematics/kinematics.c.s
-
 Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.obj: Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj
 .PHONY : Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.obj
 
@@ -1856,6 +1832,30 @@ Drivers/bsp/task/Usart/usart_task.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\V2.elf.dir\build.make CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.s
 .PHONY : Drivers/bsp/task/Usart/usart_task.c.s
 
+Drivers/bsp/task/kinematics/kinematics_task.obj: Drivers/bsp/task/kinematics/kinematics_task.c.obj
+.PHONY : Drivers/bsp/task/kinematics/kinematics_task.obj
+
+# target to build an object file
+Drivers/bsp/task/kinematics/kinematics_task.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\V2.elf.dir\build.make CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.obj
+.PHONY : Drivers/bsp/task/kinematics/kinematics_task.c.obj
+
+Drivers/bsp/task/kinematics/kinematics_task.i: Drivers/bsp/task/kinematics/kinematics_task.c.i
+.PHONY : Drivers/bsp/task/kinematics/kinematics_task.i
+
+# target to preprocess a source file
+Drivers/bsp/task/kinematics/kinematics_task.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\V2.elf.dir\build.make CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.i
+.PHONY : Drivers/bsp/task/kinematics/kinematics_task.c.i
+
+Drivers/bsp/task/kinematics/kinematics_task.s: Drivers/bsp/task/kinematics/kinematics_task.c.s
+.PHONY : Drivers/bsp/task/kinematics/kinematics_task.s
+
+# target to generate assembly for a file
+Drivers/bsp/task/kinematics/kinematics_task.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\V2.elf.dir\build.make CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.s
+.PHONY : Drivers/bsp/task/kinematics/kinematics_task.c.s
+
 Src/gpio.obj: Src/gpio.c.obj
 .PHONY : Src/gpio.obj
 
@@ -2269,9 +2269,6 @@ help:
 	@echo ... Drivers/bsp/Step_Motor/motor.obj
 	@echo ... Drivers/bsp/Step_Motor/motor.i
 	@echo ... Drivers/bsp/Step_Motor/motor.s
-	@echo ... Drivers/bsp/kinematics/kinematics.obj
-	@echo ... Drivers/bsp/kinematics/kinematics.i
-	@echo ... Drivers/bsp/kinematics/kinematics.s
 	@echo ... Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.obj
 	@echo ... Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.i
 	@echo ... Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.s
@@ -2401,6 +2398,9 @@ help:
 	@echo ... Drivers/bsp/task/Usart/usart_task.obj
 	@echo ... Drivers/bsp/task/Usart/usart_task.i
 	@echo ... Drivers/bsp/task/Usart/usart_task.s
+	@echo ... Drivers/bsp/task/kinematics/kinematics_task.obj
+	@echo ... Drivers/bsp/task/kinematics/kinematics_task.i
+	@echo ... Drivers/bsp/task/kinematics/kinematics_task.s
 	@echo ... Src/gpio.obj
 	@echo ... Src/gpio.i
 	@echo ... Src/gpio.s

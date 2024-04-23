@@ -999,124 +999,6 @@ CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj:
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.obj: E:/MCU/robot/V2/Drivers/bsp/Step_Motor/motor.c
 
-CMakeFiles/V2.elf.dir/Drivers/bsp/kinematics/kinematics.c.obj: E:/MCU/robot/V2/Drivers/bsp/kinematics/kinematics.c \
-  E:/MCU/robot/V2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h \
-  E:/MCU/robot/V2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  E:/MCU/robot/V2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  E:/MCU/robot/V2/Drivers/CMSIS/Include/cmsis_compiler.h \
-  E:/MCU/robot/V2/Drivers/CMSIS/Include/cmsis_gcc.h \
-  E:/MCU/robot/V2/Drivers/CMSIS/Include/cmsis_version.h \
-  E:/MCU/robot/V2/Drivers/CMSIS/Include/core_cm4.h \
-  E:/MCU/robot/V2/Drivers/CMSIS/Include/mpu_armv7.h \
-  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/FreeRTOS.h \
-  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/FreeRTOSConfig.h \
-  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/deprecated_definitions.h \
-  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/list.h \
-  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/mpu_wrappers.h \
-  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/portable.h \
-  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/projdefs.h \
-  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/queue.h \
-  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/semphr.h \
-  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/task.h \
-  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/timers.h \
-  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/portmacro.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
-  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  E:/MCU/robot/V2/Drivers/bsp/kinematics/kinematics.h \
-  E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2.h \
-  E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8.h \
-  E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h \
-  E:/MCU/robot/V2/Inc/gpio.h \
-  E:/MCU/robot/V2/Inc/i2c.h \
-  E:/MCU/robot/V2/Inc/main.h \
-  E:/MCU/robot/V2/Inc/stm32f4xx_hal_conf.h \
-  E:/MCU/robot/V2/Inc/tim.h \
-  E:/MCU/robot/V2/Inc/usart.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
-  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/limits.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/_default_types.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/_endian.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/_types.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/endian.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdlib.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/string.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/strings.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_intsup.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_locale.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_sigset.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_stdint.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_timespec.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_timeval.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_types.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/cdefs.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/config.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/features.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/lock.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/reent.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/sched.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/select.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/stdio.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/string.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/syslimits.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/timespec.h \
-  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
-  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
-  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
-  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
-  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
-
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8.h \
@@ -1909,12 +1791,36 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.obj: E:/MC
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
   E:/MCU/robot/V2/Inc/gpio.h \
   E:/MCU/robot/V2/Inc/i2c.h \
   E:/MCU/robot/V2/Inc/main.h \
   E:/MCU/robot/V2/Inc/stm32f4xx_hal_conf.h \
   E:/MCU/robot/V2/Inc/tim.h \
   E:/MCU/robot/V2/Inc/usart.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
@@ -1926,6 +1832,7 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.obj: E:/MC
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
@@ -1954,6 +1861,7 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.obj: E:/MC
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -2006,12 +1914,34 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.obj: E:/MCU/robot/V2/Drive
   E:/MCU/robot/V2/Drivers/bsp/task/App/app_task.h \
   E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
   E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
   E:/MCU/robot/V2/Inc/gpio.h \
   E:/MCU/robot/V2/Inc/i2c.h \
   E:/MCU/robot/V2/Inc/main.h \
   E:/MCU/robot/V2/Inc/stm32f4xx_hal_conf.h \
   E:/MCU/robot/V2/Inc/tim.h \
   E:/MCU/robot/V2/Inc/usart.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
@@ -2023,6 +1953,7 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.obj: E:/MCU/robot/V2/Drive
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
@@ -2051,6 +1982,7 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.obj: E:/MCU/robot/V2/Drive
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -2102,13 +2034,37 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.obj: E:/MCU/robot/V2/D
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h \
   E:/MCU/robot/V2/Drivers/bsp/task/App/app_task.h \
   E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
   E:/MCU/robot/V2/Drivers/bsp/task/Timer/timer_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
   E:/MCU/robot/V2/Inc/gpio.h \
   E:/MCU/robot/V2/Inc/i2c.h \
   E:/MCU/robot/V2/Inc/main.h \
   E:/MCU/robot/V2/Inc/stm32f4xx_hal_conf.h \
   E:/MCU/robot/V2/Inc/tim.h \
   E:/MCU/robot/V2/Inc/usart.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
@@ -2120,6 +2076,7 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.obj: E:/MCU/robot/V2/D
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
@@ -2148,6 +2105,7 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.obj: E:/MCU/robot/V2/D
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -2199,12 +2157,35 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.obj: E:/MCU/robot/V2/D
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h \
   E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
   E:/MCU/robot/V2/Drivers/bsp/task/Timer/timer_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
   E:/MCU/robot/V2/Inc/gpio.h \
   E:/MCU/robot/V2/Inc/i2c.h \
   E:/MCU/robot/V2/Inc/main.h \
   E:/MCU/robot/V2/Inc/stm32f4xx_hal_conf.h \
   E:/MCU/robot/V2/Inc/tim.h \
   E:/MCU/robot/V2/Inc/usart.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
@@ -2216,6 +2197,7 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.obj: E:/MCU/robot/V2/D
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
@@ -2244,6 +2226,7 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.obj: E:/MCU/robot/V2/D
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -2295,12 +2278,35 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.obj: E:/MCU/robot/V2/D
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h \
   E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
   E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
   E:/MCU/robot/V2/Inc/gpio.h \
   E:/MCU/robot/V2/Inc/i2c.h \
   E:/MCU/robot/V2/Inc/main.h \
   E:/MCU/robot/V2/Inc/stm32f4xx_hal_conf.h \
   E:/MCU/robot/V2/Inc/tim.h \
   E:/MCU/robot/V2/Inc/usart.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
@@ -2312,6 +2318,7 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.obj: E:/MCU/robot/V2/D
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
@@ -2340,6 +2347,128 @@ CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.obj: E:/MCU/robot/V2/D
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+
+CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.obj: E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.c \
+  E:/MCU/robot/V2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h \
+  E:/MCU/robot/V2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  E:/MCU/robot/V2/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  E:/MCU/robot/V2/Drivers/CMSIS/Include/cmsis_compiler.h \
+  E:/MCU/robot/V2/Drivers/CMSIS/Include/cmsis_gcc.h \
+  E:/MCU/robot/V2/Drivers/CMSIS/Include/cmsis_version.h \
+  E:/MCU/robot/V2/Drivers/CMSIS/Include/core_cm4.h \
+  E:/MCU/robot/V2/Drivers/CMSIS/Include/mpu_armv7.h \
+  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/FreeRTOS.h \
+  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/FreeRTOSConfig.h \
+  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/deprecated_definitions.h \
+  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/list.h \
+  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/mpu_wrappers.h \
+  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/portable.h \
+  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/projdefs.h \
+  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/queue.h \
+  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/semphr.h \
+  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/task.h \
+  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/timers.h \
+  E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/portmacro.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
+  E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2.h \
+  E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8.h \
+  E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
+  E:/MCU/robot/V2/Inc/gpio.h \
+  E:/MCU/robot/V2/Inc/i2c.h \
+  E:/MCU/robot/V2/Inc/main.h \
+  E:/MCU/robot/V2/Inc/stm32f4xx_hal_conf.h \
+  E:/MCU/robot/V2/Inc/tim.h \
+  E:/MCU/robot/V2/Inc/usart.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/limits.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/_endian.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/endian.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdlib.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/string.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/strings.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_locale.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_sigset.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_stdint.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_timespec.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_timeval.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/config.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/features.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/sched.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/select.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/stdio.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/string.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/timespec.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -2389,12 +2518,36 @@ CMakeFiles/V2.elf.dir/Src/gpio.c.obj: E:/MCU/robot/V2/Src/gpio.c \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
   E:/MCU/robot/V2/Inc/gpio.h \
   E:/MCU/robot/V2/Inc/i2c.h \
   E:/MCU/robot/V2/Inc/main.h \
   E:/MCU/robot/V2/Inc/stm32f4xx_hal_conf.h \
   E:/MCU/robot/V2/Inc/tim.h \
   E:/MCU/robot/V2/Inc/usart.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
@@ -2406,6 +2559,7 @@ CMakeFiles/V2.elf.dir/Src/gpio.c.obj: E:/MCU/robot/V2/Src/gpio.c \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
@@ -2434,6 +2588,7 @@ CMakeFiles/V2.elf.dir/Src/gpio.c.obj: E:/MCU/robot/V2/Src/gpio.c \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -2483,12 +2638,36 @@ CMakeFiles/V2.elf.dir/Src/i2c.c.obj: E:/MCU/robot/V2/Src/i2c.c \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
   E:/MCU/robot/V2/Inc/gpio.h \
   E:/MCU/robot/V2/Inc/i2c.h \
   E:/MCU/robot/V2/Inc/main.h \
   E:/MCU/robot/V2/Inc/stm32f4xx_hal_conf.h \
   E:/MCU/robot/V2/Inc/tim.h \
   E:/MCU/robot/V2/Inc/usart.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
@@ -2500,6 +2679,7 @@ CMakeFiles/V2.elf.dir/Src/i2c.c.obj: E:/MCU/robot/V2/Src/i2c.c \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
@@ -2528,6 +2708,7 @@ CMakeFiles/V2.elf.dir/Src/i2c.c.obj: E:/MCU/robot/V2/Src/i2c.c \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -2580,12 +2761,35 @@ CMakeFiles/V2.elf.dir/Src/main.c.obj: E:/MCU/robot/V2/Src/main.c \
   E:/MCU/robot/V2/Drivers/bsp/printf/printf.h \
   E:/MCU/robot/V2/Drivers/bsp/task/App/app_task.h \
   E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
   E:/MCU/robot/V2/Inc/gpio.h \
   E:/MCU/robot/V2/Inc/i2c.h \
   E:/MCU/robot/V2/Inc/main.h \
   E:/MCU/robot/V2/Inc/stm32f4xx_hal_conf.h \
   E:/MCU/robot/V2/Inc/tim.h \
   E:/MCU/robot/V2/Inc/usart.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
@@ -2597,6 +2801,7 @@ CMakeFiles/V2.elf.dir/Src/main.c.obj: E:/MCU/robot/V2/Src/main.c \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
@@ -2625,6 +2830,7 @@ CMakeFiles/V2.elf.dir/Src/main.c.obj: E:/MCU/robot/V2/Src/main.c \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -2674,12 +2880,36 @@ CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: E:/MCU/robot/V2/Src/stm32f4xx
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
   E:/MCU/robot/V2/Inc/gpio.h \
   E:/MCU/robot/V2/Inc/i2c.h \
   E:/MCU/robot/V2/Inc/main.h \
   E:/MCU/robot/V2/Inc/stm32f4xx_hal_conf.h \
   E:/MCU/robot/V2/Inc/tim.h \
   E:/MCU/robot/V2/Inc/usart.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
@@ -2691,6 +2921,7 @@ CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: E:/MCU/robot/V2/Src/stm32f4xx
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
@@ -2719,6 +2950,7 @@ CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: E:/MCU/robot/V2/Src/stm32f4xx
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -2808,6 +3040,9 @@ CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.obj: E:/MCU/robot/V2/Src/stm32f4xx_it.c
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
   E:/MCU/robot/V2/Inc/gpio.h \
   E:/MCU/robot/V2/Inc/i2c.h \
   E:/MCU/robot/V2/Inc/main.h \
@@ -2815,6 +3050,27 @@ CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.obj: E:/MCU/robot/V2/Src/stm32f4xx_it.c
   E:/MCU/robot/V2/Inc/stm32f4xx_it.h \
   E:/MCU/robot/V2/Inc/tim.h \
   E:/MCU/robot/V2/Inc/usart.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
@@ -2826,6 +3082,7 @@ CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.obj: E:/MCU/robot/V2/Src/stm32f4xx_it.c
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
@@ -2854,6 +3111,7 @@ CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.obj: E:/MCU/robot/V2/Src/stm32f4xx_it.c
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -3007,12 +3265,36 @@ CMakeFiles/V2.elf.dir/Src/tim.c.obj: E:/MCU/robot/V2/Src/tim.c \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
   E:/MCU/robot/V2/Inc/gpio.h \
   E:/MCU/robot/V2/Inc/i2c.h \
   E:/MCU/robot/V2/Inc/main.h \
   E:/MCU/robot/V2/Inc/stm32f4xx_hal_conf.h \
   E:/MCU/robot/V2/Inc/tim.h \
   E:/MCU/robot/V2/Inc/usart.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
@@ -3024,6 +3306,7 @@ CMakeFiles/V2.elf.dir/Src/tim.c.obj: E:/MCU/robot/V2/Src/tim.c \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
@@ -3052,6 +3335,7 @@ CMakeFiles/V2.elf.dir/Src/tim.c.obj: E:/MCU/robot/V2/Src/tim.c \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -3101,12 +3385,36 @@ CMakeFiles/V2.elf.dir/Src/usart.c.obj: E:/MCU/robot/V2/Src/usart.c \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8.h \
   E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h \
+  E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h \
   E:/MCU/robot/V2/Inc/gpio.h \
   E:/MCU/robot/V2/Inc/i2c.h \
   E:/MCU/robot/V2/Inc/main.h \
   E:/MCU/robot/V2/Inc/stm32f4xx_hal_conf.h \
   E:/MCU/robot/V2/Inc/tim.h \
   E:/MCU/robot/V2/Inc/usart.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/basic_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/quaternion_math_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_defines.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h \
+  E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_ansi.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/_newlib_version.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/alloca.h \
@@ -3118,6 +3426,7 @@ CMakeFiles/V2.elf.dir/Src/usart.c.obj: E:/MCU/robot/V2/Src/usart.c \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/ieeefp.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h \
+  D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/newlib.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdint.h \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h \
@@ -3146,6 +3455,7 @@ CMakeFiles/V2.elf.dir/Src/usart.c.obj: E:/MCU/robot/V2/Src/usart.c \
   D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h \
+  D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
@@ -3612,119 +3922,21 @@ E:/MCU/robot/V2/dsplib/DSP/Src/MatrixFunctions/arm_mat_sub_f64.c:
 
 E:/MCU/robot/V2/Drivers/bsp/Step_Motor/motor.c:
 
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h:
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/limits.h:
 
-E:/MCU/robot/V2/Drivers/bsp/kinematics/kinematics.c:
-
-E:/MCU/robot/V2/Src/stm32f4xx_it.c:
-
-E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/semphr.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Src/MatrixFunctions/arm_mat_init_f64.c:
-
-E:/MCU/robot/V2/Drivers/bsp/kinematics/kinematics.h:
+E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c:
 
 E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2.h:
 
 E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8.h:
 
-E:/MCU/robot/V2/dsplib/DSP/Src/BasicMathFunctions/arm_clip_f32.c:
-
-E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h:
-
-E:/MCU/robot/V2/Inc/gpio.h:
-
-E:/MCU/robot/V2/Inc/i2c.h:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h:
-
-E:/MCU/robot/V2/Inc/main.h:
-
-E:/MCU/robot/V2/Inc/usart.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Src/MatrixFunctions/arm_mat_cmplx_mult_f32.c:
-
-E:/MCU/robot/V2/Drivers/bsp/task/App/app_task.h:
-
-E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Src/BasicMathFunctions/arm_sub_f32.c:
-
-E:/MCU/robot/V2/Drivers/bsp/task/App/app_task.c:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h:
-
-E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/limits.h:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/_endian.h:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/endian.h:
-
-D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/syslimits.h:
 
 D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/types.h:
 
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h:
-
-E:/MCU/robot/V2/dsplib/DSP/Src/MatrixFunctions/arm_mat_cmplx_trans_f32.c:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_pthreadtypes.h:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_sigset.h:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_timespec.h:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_timeval.h:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/sched.h:
-
-E:/MCU/robot/V2/Src/system_stm32f4xx.c:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/select.h:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/stdio.h:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/syslimits.h:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/timespec.h:
+D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h:
 
 D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed/syslimits.h:
-
-D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h:
 
 D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
 
@@ -3745,6 +3957,8 @@ E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c:
 E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c:
 
 E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c:
+
+E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.h:
 
 E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c:
 
@@ -3776,6 +3990,14 @@ E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c:
 
 E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c:
 
+E:/MCU/robot/V2/dsplib/DSP/Src/MatrixFunctions/arm_mat_cmplx_mult_f32.c:
+
+E:/MCU/robot/V2/Drivers/bsp/task/App/app_task.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_memory.h:
+
+E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c:
+
 E:/MCU/robot/V2/dsplib/DSP/Src/MatrixFunctions/arm_mat_trans_q15.c:
 
 E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c:
@@ -3798,15 +4020,103 @@ E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c:
 
 E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c:
 
+E:/MCU/robot/V2/Src/stm32f4xx_it.c:
+
+E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/inc/semphr.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Src/BasicMathFunctions/arm_clip_f32.c:
+
+E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.h:
+
 E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.h:
 
 E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.h:
+
+E:/MCU/robot/V2/Inc/gpio.h:
+
+E:/MCU/robot/V2/Inc/i2c.h:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/types.h:
+
+E:/MCU/robot/V2/Inc/main.h:
+
+E:/MCU/robot/V2/Inc/usart.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/arm_math_types.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/bayes_functions.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/complex_math_functions.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/controller_functions.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/distance_functions.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/fast_math_functions.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Src/BasicMathFunctions/arm_sub_f32.c:
+
+E:/MCU/robot/V2/Drivers/bsp/task/App/app_task.c:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/interpolation_functions.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/filtering_functions.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/matrix_functions.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/none.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/statistics_functions.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/support_functions.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/svm_functions.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/transform_functions.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/utils.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Inc/dsp/window_functions.h:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/_endian.h:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/endian.h:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/math.h:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/stdio.h:
+
+E:/MCU/robot/V2/dsplib/DSP/Src/MatrixFunctions/arm_mat_cmplx_trans_f32.c:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_pthreadtypes.h:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_sigset.h:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_timespec.h:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/_timeval.h:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/sched.h:
+
+E:/MCU/robot/V2/Src/system_stm32f4xx.c:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/select.h:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/stdio.h:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/timespec.h:
+
+D:/arm-none-eabi-gcc/2021.10/lib/gcc/arm-none-eabi/10.3.1/include/float.h:
 
 E:/MCU/robot/V2/dsplib/DSP/Src/BasicMathFunctions/arm_clip_q31.c:
 
 E:/MCU/robot/V2/Drivers/bsp/task/Timer/timer_task.c:
 
 E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.c:
+
+D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/time.h:
+
+E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.c:
 
 E:/MCU/robot/V2/dsplib/DSP/Src/BasicMathFunctions/arm_mult_f64.c:
 
@@ -3829,8 +4139,6 @@ D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/machine/time.h:
 D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/signal.h:
 
 D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/stat.h:
-
-D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/time.h:
 
 D:/arm-none-eabi-gcc/2021.10/arm-none-eabi/include/sys/times.h:
 
@@ -3945,6 +4253,8 @@ E:/MCU/robot/V2/dsplib/DSP/Src/MatrixFunctions/arm_mat_cmplx_trans_q15.c:
 E:/MCU/robot/V2/dsplib/DSP/Src/MatrixFunctions/arm_mat_cmplx_trans_q31.c:
 
 E:/MCU/robot/V2/dsplib/DSP/Src/MatrixFunctions/arm_mat_init_f32.c:
+
+E:/MCU/robot/V2/dsplib/DSP/Src/MatrixFunctions/arm_mat_init_f64.c:
 
 E:/MCU/robot/V2/dsplib/DSP/Src/MatrixFunctions/arm_mat_init_q15.c:
 

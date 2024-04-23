@@ -93,4 +93,40 @@ CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\stdlib.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\machine\stdlib.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\alloca.h \
- E:\MCU\robot\V2\Drivers\bsp\task\Usart/usart_task.h
+ E:\MCU\robot\V2\Drivers\bsp\task\Usart/usart_task.h \
+ E:\MCU\robot\V2\Drivers\bsp\task\kinematics/kinematics_task.h \
+ d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\math.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/arm_math.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/arm_math_types.h \
+ E:\MCU\robot\V2\Drivers\CMSIS\Include/cmsis_compiler.h \
+ d:\arm-none-eabi-gcc\2021.10\lib\gcc\arm-none-eabi\10.3.1\include\float.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/arm_math_memory.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/none.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/arm_math_types.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/utils.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/basic_math_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/arm_math_memory.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/none.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/utils.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/interpolation_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/bayes_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/statistics_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/basic_math_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/fast_math_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/matrix_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/complex_math_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/statistics_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/controller_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/support_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/distance_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/matrix_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/svm_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/svm_defines.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/fast_math_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/transform_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/complex_math_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/filtering_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/support_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/quaternion_math_functions.h \
+ E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/window_functions.h \
+ E:\MCU\robot\V2\Drivers\bsp\task\Motor/motor_task.h

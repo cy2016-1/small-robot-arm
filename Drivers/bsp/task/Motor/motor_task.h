@@ -60,6 +60,14 @@ extern TaskHandle_t Motor6_Init_Task_Handle;
 #define MOTOR6_DIR_LOW()        HAL_GPIO_WritePin(DIR6_GPIO_Port,DIR6_Pin,GPIO_PIN_RESET);
 #define MOTOR6_DIR_HIGH()       HAL_GPIO_WritePin(DIR6_GPIO_Port,DIR6_Pin,GPIO_PIN_SET);
 
+//脉冲角度比例
+#define motor1_dev  (1150.0f/9.0f) //(1150/9个脉冲转动1°，或者是转动1°需要1150/9个脉冲)
+#define motor2_dev  (1000.0f/9.0f)
+#define motor3_dev  (90.0f)
+#define motor4_dev  (170.0f/9.0f)
+#define motor5_dev  (340.0f/9.0f)
+#define motor6_dev  (160.0f/9.0f)
+extern float Motor_Dev[7];
 
 //电机转速枚举
 enum motor_speed
@@ -71,15 +79,25 @@ enum motor_speed
 };
 
 //电机控制参数结构体
-struct motor_ctrl
+typedef struct motor_ctrl
 {
     int target_pulse;
     int now_pulse;
+    int max_pulse;
+    int min_pulse;
     uint8_t dir;
     uint8_t en;
     enum motor_speed speed;
-};
-extern struct motor_ctrl Motor[7];
+}Motor_ctrl;
+extern Motor_ctrl Motor[7];
+
+
+//脉冲极限
+void Pulse_Limit(Motor_ctrl* pulse);
+//脉冲转角度
+float Pulse_to_Angle(int pulse,int motor_id);
+//角度转脉冲
+int Angle_to_Pulse(float angle,int motor_id);
 
 
 //电机运行任务函数
