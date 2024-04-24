@@ -29,28 +29,29 @@ void USART1_Task(void *pvParameters)
 
     if(usart1_recbuf[0] == 'A')
     {
-      int num_buff[6];
-      extractNumbers((const char*)usart1_recbuf,num_buff,6);//将数据字符转换成数字
+      int num_buff1[6];
+      extractNumbers((const char*)usart1_recbuf,num_buff1,6);//将数据字符转换成数字
 
-      Motor[1].target_pulse = num_buff[0];
-      Motor[2].target_pulse = num_buff[1];
-      Motor[3].target_pulse = num_buff[2];
-      Motor[4].target_pulse = num_buff[3];
-      Motor[5].target_pulse = num_buff[4];
-      Motor[6].target_pulse = num_buff[5];
+      Motor[1].target_pulse = num_buff1[0];
+      Motor[2].target_pulse = num_buff1[1];
+      Motor[3].target_pulse = num_buff1[2];
+      Motor[4].target_pulse = num_buff1[3];
+      Motor[5].target_pulse = num_buff1[4];
+      Motor[6].target_pulse = num_buff1[5];
+
     }
 
     else if(usart1_recbuf[0] == 'S')
     {
-      int num_buff[1];
-      extractNumbers((const char *) usart1_recbuf, num_buff, 1);//将数据字符转换成数字
+      int num_buff2[1];
+      extractNumbers((const char *) usart1_recbuf, num_buff2, 1);//将数据字符转换成数字
 
-      Motor[1].speed = num_buff[0] / 100000;
-      Motor[2].speed = (num_buff[0] / 10000) % 10;
-      Motor[3].speed = (num_buff[0] / 1000) % 10;
-      Motor[4].speed = (num_buff[0] / 100) % 10;
-      Motor[5].speed = (num_buff[0] / 10) % 10;
-      Motor[6].speed = num_buff[0] % 10;
+      Motor[1].speed = num_buff2[0] / 100000;
+      Motor[2].speed = (num_buff2[0] / 10000) % 10;
+      Motor[3].speed = (num_buff2[0] / 1000) % 10;
+      Motor[4].speed = (num_buff2[0] / 100) % 10;
+      Motor[5].speed = (num_buff2[0] / 10) % 10;
+      Motor[6].speed = num_buff2[0] % 10;
 
       for (int i = 0; i < 6; ++i)
       {
@@ -73,15 +74,18 @@ void USART1_Task(void *pvParameters)
         }
       }
     }
+
     memset(usart1_recbuf,0,50);
     for(int i = 0;i<6;i++)
     {
       printf("target[%d]= %d   speed[%d]= %d\r\n",i+1,Motor[i+1].target_pulse,i+1,Motor[i+1].speed);
     }
 
-    for (int i = 0; i < 6; ++i) {
+    for (int i = 0; i < 6; ++i)
+    {
       Motor[i+1].en = 1;//开机
     }
+
     vTaskDelayUntil(&TickCount, pdMS_TO_TICKS(100));
   }
 }

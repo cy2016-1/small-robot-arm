@@ -40,20 +40,28 @@ void Kinematics_IK_Task(void* pvParameters)
     openmv.x = (float)num_buff[0];
     openmv.y = (float)num_buff[1];
 
-    float Xhome[6]={openmv.x, openmv.y, Z_high, 90.0f, 180.0f, -90.0f}; //{x, y, z, ZYZ Euler angles}
+    float Xhome[6]={openmv.x, openmv.y, 5, 90.0f, 180, -90.0f}; //{x, y, z, ZYZ Euler angles}
+//    float Xhome[6]={0, 164.5,0.0, 90.0, 180.0, -90.0}; //{x, y, z, ZYZ Euler angles}
     float Jhome[6];
     InverseK(Xhome, Jhome);
 
     printf("openmv:x:%.4f,y:%.4f\r\n",openmv.x,openmv.y);
-    printf("Theta1:%.4f\r\nTheta2:%.4f\r\nTheta3:%.4f\r\nTheta4:%.4f\r\nTheta5:%.4f\r\nTheta6:%.4f\r\n",Jhome[0],Jhome[1],Jhome[2],Jhome[3],Jhome[4],Jhome[5]);
+    printf("Theta1:%.4f\r\nTheta2:%.4f\r\nTheta3:%.4f\r\nTheta4:%.4f\r\nTheta5:%.4f\r\nTheta6:%.4f\r\n",(Jhome[0]-90)/2,Jhome[1],Jhome[2],Jhome[3],Jhome[4],Jhome[5]);
 
-//    for(int i=0;i<6;++i)
-//    {
-//      Motor[i+1].target_pulse += (int)(Jhome[i]*Motor_Dev[i+1]);
-//    }
-//    for (int i = 0; i < 6; ++i) {
-//      Motor[i+1].en = 1;//开机执行
-//    }
+    Motor[1].target_pulse = Angle_to_Pulse(((Jhome[0]-90)/2),1);//一轴正确
+
+    Motor[2].target_pulse = Angle_to_Pulse((Jhome[1]+9),2);
+
+    Motor[3].target_pulse = Angle_to_Pulse((Jhome[2]+10),3);
+
+    Motor[4].target_pulse = Angle_to_Pulse((Jhome[3]-180),4);
+
+    Motor[5].target_pulse = Angle_to_Pulse((Jhome[4]+22),5);
+
+
+    for (int i = 0; i < 6; ++i) {
+      Motor[i+1].en = 1;//开机执行
+    }
 
     vTaskDelayUntil(&TickCount, pdMS_TO_TICKS(100));
   }

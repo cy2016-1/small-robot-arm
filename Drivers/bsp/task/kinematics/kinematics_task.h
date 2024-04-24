@@ -17,9 +17,6 @@ typedef struct Openmv
 }Openmv_t;
 extern Openmv_t openmv;
 
-#define Z_high (30.0f)
-
-
 extern TaskHandle_t Kinematics_IK_Task_Handle;
 void Kinematics_IK_Task(void* pvParameters);
 

@@ -11,7 +11,6 @@
 #define END_FLAG ('X')
 
 
-
 extern uint8_t usart1_rec;
 extern uint8_t usart1_recbuf[USART_REC_LEN];
 extern uint8_t usart6_rec;
@@ -19,11 +18,8 @@ extern uint8_t usart6_recbuf[USART_REC_LEN];
 
 
 extern TaskHandle_t USART1_Task_Handler;
-extern TaskHandle_t USART6_Task_Handler;
-
 
 void USART1_Task(void *pvParameters);
-void USART6_Task(void *pvParameters);
 
 //获取字符串中的整数
 void extractNumbers(const char *data, int *numbers, int size);

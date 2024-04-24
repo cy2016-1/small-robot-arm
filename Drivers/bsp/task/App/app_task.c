@@ -79,7 +79,7 @@ void App_Run_Task_Init(void)
   xTaskCreate(Kinematics_IK_Task, "Kinematics_IK_Task", 256, NULL, 3, &Kinematics_IK_Task_Handle);
 
   //创建OLED任务
-  xTaskCreate(OLED_Task, "OLED_Task", 384, NULL, 3, &OLED_Task_Handler);
+//  xTaskCreate(OLED_Task, "OLED_Task", 384, NULL, 3, &OLED_Task_Handler);
 
   //创建电机运行任务
   xTaskCreate(Motor1_Run_Task, "Motor1_Run_Task", 128, NULL, 3, &Motor1_Run_Task_Handle);
@@ -90,7 +90,7 @@ void App_Run_Task_Init(void)
   xTaskCreate(Motor6_Run_Task, "Motor6_Run_Task", 128, NULL, 3, &Motor6_Run_Task_Handle);
 
   //创建摄像头拍照任务
-  xTaskCreate(Camer_Snapshot_Task, "Camer_Snapshot_Task", 128, NULL, 3, &Camer_Snapshot_Task_Handle);
+  xTaskCreate(Camer_Snapshot_Task, "Camer_Snapshot_Task", 64, NULL, 3, &Camer_Snapshot_Task_Handle);
 
 
   //创建软件定时器

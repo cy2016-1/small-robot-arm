@@ -107,6 +107,8 @@ int main(void)
 
 //  App_Run_Task_Init();
 
+  HAL_Delay(1000);
+
   //开启硬件定时器
   HAL_TIM_Base_Start_IT(&htim10);
 

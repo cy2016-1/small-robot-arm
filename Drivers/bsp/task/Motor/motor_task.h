@@ -61,9 +61,9 @@ extern TaskHandle_t Motor6_Init_Task_Handle;
 #define MOTOR6_DIR_HIGH()       HAL_GPIO_WritePin(DIR6_GPIO_Port,DIR6_Pin,GPIO_PIN_SET);
 
 //脉冲角度比例
-#define motor1_dev  (1150.0f/9.0f) //(1150/9个脉冲转动1°，或者是转动1°需要1150/9个脉冲)
-#define motor2_dev  (1000.0f/9.0f)
-#define motor3_dev  (90.0f)
+#define motor1_dev  (1300.0f/9.0f) //(1150/9个脉冲转动1°，或者是转动1°需要1150/9个脉冲)
+#define motor2_dev  (950.0f/9.0f)
+#define motor3_dev  (100.0f)
 #define motor4_dev  (170.0f/9.0f)
 #define motor5_dev  (340.0f/9.0f)
 #define motor6_dev  (160.0f/9.0f)
