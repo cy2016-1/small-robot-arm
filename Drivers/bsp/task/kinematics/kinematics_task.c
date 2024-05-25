@@ -135,6 +135,7 @@ void Kinematics_IK_Task(void* pvParameters)
       for (int i = 0; i < 6; ++i)
       {
         Motor[i+1].en = 1;//开机执行
+
       }
       //到达中间点
       while(!((Motor[1].en==0)&&(Motor[2].en==0)&&(Motor[3].en==0)&&(Motor[4].en==0)&&(Motor[5].en==0)))
