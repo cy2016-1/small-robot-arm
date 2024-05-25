@@ -4,8 +4,6 @@
 
 #include "kinematics_task.h"
 
-Openmv_t openmv;
-
 const double r1 = 47.0;
 const double r2 = 110.0;
 const double r3 = 26.0;
@@ -14,55 +12,148 @@ const double d3 = 0.0;
 const double d4 = 117.50;
 const double d6 = 28.0;
 
+const double dl1 = 360.0/200.0/32.0/8.0;         //轴1齿轮减速比 = 8  7.15
+const double dl2 = 360.0/200.0/32.0/(120/20.0);  //轴2齿轮减速比 = 6
+const double dl3 = 360.0/200.0/32.0/(100/20.0);  //轴3齿轮减速比 = 5
+const double dl4 = 360.0/200.0/32.0/(56/20.0);   //轴4齿轮减速比 = 56/20 = 2.8
+const double dl5 = 360.0/200.0/32.0/(42/20.0);   //轴5齿轮减速比 = 42/20 = 2.1
+const double dl6 = 360.0/200.0/32.0/(20/20.0);   //轴6齿轮减速比 = 1
+
 
 //运动学解析任务句柄
 TaskHandle_t Kinematics_IK_Task_Handle;
-
-
 
 //逆解析任务
 void Kinematics_IK_Task(void* pvParameters)
 {
   TickType_t TickCount = xTaskGetTickCount();
 
+  float Xhome[6]={164.5, 0.0, 241.0, 90.0, 180.0, -90.0}; //{x, y, z, ZYZ Euler angles}
+  float Jhome[6]={0};
+
+  float Xbox[6] = {50,150,40,90,180,-90};
+  float Jbox[6] = {0};
+
+  float Xtemp[6] = {50,150,150,90,180,-90};
+  float Jtemp[6] = {0};
+
+  InverseK(Xbox, Jbox);
+  InverseK(Xtemp, Jtemp);
+  InverseK(Xhome,Jhome);
+
+  static int cnt = 0;
+
+  float High = 30.0;
+
   for(;;)
   {
+    if(usart6_flag == 1)
+    {
+      usart6_flag = 0;
+      for (int i = 0; i < 6; ++i)
+      {
+        Motor[i+1].en = 0;//停机等待
+      }
 
-    ulTaskNotifyTake(pdTRUE,portMAX_DELAY);//等待通知
+      int num_buff6[2];
 
-    for (int i = 0; i < 6; ++i) {
-      Motor[i+1].en = 0;//停机等待
+      extractNumbers((const char *) usart6_recbuf, num_buff6, 2);//将数据字符转换成数字
+
+      float xt = (float)(1.053599*num_buff6[0] + 120.605364);
+      float yt = (float)(0.766330*num_buff6[1] - 4.487355);//- 4.487355
+
+      printf("xt:%f,yt:%f\r\n",xt,yt);
+
+      float Xt[6]={xt, yt, High, 90.0, 180.0, -90.0}; //{x, y, z, ZYZ Euler angles};
+      float Jt[6]={0};
+      InverseK(Xt,Jt);
+
+      for(int i = 0;i<6;i++)
+      {
+        printf("J[%d]:%f\r\n",i+1,Jt[i]);
+      }
+      Motor[1].target_pulse = (int)(Jt[0]/dl1);    //目标点
+      Motor[2].target_pulse = (int)(Jt[1]/dl2);
+      Motor[3].target_pulse = -(int)(Jt[2]/dl3);
+      Motor[4].target_pulse = (int)(Jt[3]/dl4);
+      Motor[5].target_pulse = (int)((Jt[4]+5)/dl5);
+      Motor[6].target_pulse = (int)((Jt[5])/dl6);
+
+      for (int i = 0; i < 6; ++i)
+      {
+        Motor[i+1].en = 1;//开机执行
+      }
+
+      //到达目标点
+      while(!((Motor[1].en==0)&&(Motor[2].en==0)&&(Motor[3].en==0)&&(Motor[4].en==0)&&(Motor[5].en==0)))
+      {
+        vTaskDelay(pdMS_TO_TICKS(10));
+      }
+      HAL_GPIO_WritePin(RELAY_GPIO_Port,RELAY_Pin,GPIO_PIN_RESET);//吸取
+      vTaskDelay(pdMS_TO_TICKS(500));
+
+
+      Motor[1].target_pulse = (int)(Jtemp[0]/dl1);      //中间点
+      Motor[2].target_pulse = (int)(Jtemp[1]/dl2);
+      Motor[3].target_pulse = -(int)(Jtemp[2]/dl3);
+      Motor[4].target_pulse = (int)(Jtemp[3]/dl4);
+      Motor[5].target_pulse = (int)((Jtemp[4]+5)/dl5);
+      Motor[6].target_pulse = (int)((Jtemp[5])/dl6);
+      for (int i = 0; i < 6; ++i)
+      {
+        Motor[i+1].en = 1;//开机执行
+      }
+      //到达中间点
+      while(!((Motor[1].en==0)&&(Motor[2].en==0)&&(Motor[3].en==0)&&(Motor[4].en==0)&&(Motor[5].en==0)))
+      {
+        vTaskDelay(pdMS_TO_TICKS(10));
+      }
+
+      Motor[1].target_pulse = (int)(Jbox[0]/dl1);      //盒子
+      Motor[2].target_pulse = (int)(Jbox[1]/dl2);
+      Motor[3].target_pulse = -(int)(Jbox[2]/dl3);
+      Motor[4].target_pulse = (int)(Jbox[3]/dl4);
+      Motor[5].target_pulse = (int)((Jbox[4]+5)/dl5);
+      Motor[6].target_pulse = (int)((Jbox[5])/dl6);
+      for (int i = 0; i < 6; ++i)
+      {
+        Motor[i+1].en = 1;//开机执行
+      }
+      //到达盒子
+      while(!((Motor[1].en==0)&&(Motor[2].en==0)&&(Motor[3].en==0)&&(Motor[4].en==0)&&(Motor[5].en==0)))
+      {
+        vTaskDelay(pdMS_TO_TICKS(10));
+      }
+      HAL_GPIO_WritePin(RELAY_GPIO_Port,RELAY_Pin,GPIO_PIN_SET);//释放
+
+      Motor[1].target_pulse = (int)(Jtemp[0]/dl1);      //中间点
+      Motor[2].target_pulse = (int)(Jtemp[1]/dl2);
+      Motor[3].target_pulse = -(int)(Jtemp[2]/dl3);
+      Motor[4].target_pulse = (int)(Jtemp[3]/dl4);
+      Motor[5].target_pulse = (int)((Jtemp[4]+5)/dl5);
+      Motor[6].target_pulse = (int)((Jtemp[5])/dl6);
+      for (int i = 0; i < 6; ++i)
+      {
+        Motor[i+1].en = 1;//开机执行
+      }
+      //到达中间点
+      while(!((Motor[1].en==0)&&(Motor[2].en==0)&&(Motor[3].en==0)&&(Motor[4].en==0)&&(Motor[5].en==0)))
+      {
+        vTaskDelay(pdMS_TO_TICKS(10));
+      }
     }
 
-    int num_buff[2];
-    extractNumbers((const char*)usart6_recbuf,num_buff,2);//将数据字符转换成整数
-
-    openmv.x = (float)num_buff[0];
-    openmv.y = (float)num_buff[1];
-
-    float Xhome[6]={openmv.x, openmv.y, 5, 90.0f, 180, -90.0f}; //{x, y, z, ZYZ Euler angles}
-//    float Xhome[6]={0, 164.5,0.0, 90.0, 180.0, -90.0}; //{x, y, z, ZYZ Euler angles}
-    float Jhome[6];
-    InverseK(Xhome, Jhome);
-
-    printf("openmv:x:%.4f,y:%.4f\r\n",openmv.x,openmv.y);
-    printf("Theta1:%.4f\r\nTheta2:%.4f\r\nTheta3:%.4f\r\nTheta4:%.4f\r\nTheta5:%.4f\r\nTheta6:%.4f\r\n",(Jhome[0]-90)/2,Jhome[1],Jhome[2],Jhome[3],Jhome[4],Jhome[5]);
-
-    Motor[1].target_pulse = Angle_to_Pulse(((Jhome[0]-90)/2),1);//一轴正确
-
-    Motor[2].target_pulse = Angle_to_Pulse((Jhome[1]+9),2);
-
-    Motor[3].target_pulse = Angle_to_Pulse((Jhome[2]+10),3);
-
-    Motor[4].target_pulse = Angle_to_Pulse((Jhome[3]-180),4);
-
-    Motor[5].target_pulse = Angle_to_Pulse((Jhome[4]+22),5);
-
-
-    for (int i = 0; i < 6; ++i) {
-      Motor[i+1].en = 1;//开机执行
+    if(((Motor[1].en==0)&&(Motor[2].en==0)&&(Motor[3].en==0)&&(Motor[4].en==0)&&(Motor[5].en==0)))
+    {
+      cnt++;
+      if(cnt >= 20)
+      {
+        HAL_GPIO_WritePin(CAMER_GPIO_Port,CAMER_Pin,GPIO_PIN_RESET);
+        vTaskDelay(pdMS_TO_TICKS(200));
+        HAL_GPIO_WritePin(CAMER_GPIO_Port,CAMER_Pin,GPIO_PIN_SET);
+        cnt = 0;
+      }
     }
-
     vTaskDelayUntil(&TickCount, pdMS_TO_TICKS(100));
   }
 }
@@ -192,7 +283,7 @@ void InverseK(float* Xik, float* Jik)
   float theta[6]={0.0, -90.0, 0.0, 0.0, 0.0, 0.0};      // theta=[0; -90+0; 0; 0; 0; 0];    //θ
   float alfa[6]={-90.0, 0.0, -90.0, 90.0, -90.0, 0.0};  // alfa=[-90; 0; -90; 90; -90; 0];  //a
   float r[6]={r1, r2, r3, 0.0, 0.0, 0.0};               // r=[47; 110; 26; 0; 0; 0];        //r
-  float d[6]={d1, 0.0, d3, d4, 0.0, d6};                // d=[133; 0; 7; 117.5; 0; 28];     //d
+  float d[6]={d1, 0.0, d3, d4, 0.0, d6};                // d=[133; 0; 0; 117.5; 0; 28];     //d
   // from deg to rad  //角度制转到弧度制
   MatrixScale(theta, 6, 1, PI/180.0);   // theta=theta*pi/180;
   MatrixScale(alfa, 6, 1, PI/180.0);    // alfa=alfa*pi/180;
@@ -251,5 +342,7 @@ void InverseK(float* Xik, float* Jik)
   // rad to deg       //角度制转弧度制
   MatrixScale(Jik, 6, 1, 180.0/PI); // Jik=Jik/pi*180;
 }
+
+
 
 

@@ -52,10 +52,10 @@ RM = "D:\Clion\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\MCU\robot\V2
+CMAKE_SOURCE_DIR = E:\Desktop\new\1.0\V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\MCU\robot\V2\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Desktop\new\1.0\V2\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/V2.elf.dir/depend.make
@@ -69,1207 +69,1193 @@ include CMakeFiles/V2.elf.dir/progress.make
 include CMakeFiles/V2.elf.dir/flags.make
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c.obj: E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c
+CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c.obj: E:/Desktop/new/1.0/V2/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c.obj -c E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c.obj -c E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/MemMang/heap_4.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\MemMang\heap_4.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c.obj: E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c
+CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c.obj: E:/Desktop/new/1.0/V2/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c.obj -c E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c.obj -c E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/portable/RVDS/ARM_CM4F/port.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F\port.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/croutine.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/croutine.c.obj: E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/croutine.c
+CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/croutine.c.obj: E:/Desktop/new/1.0/V2/Drivers/FreeRTOS_M4_gcc/src/croutine.c
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/croutine.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/croutine.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/croutine.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\croutine.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\croutine.c.obj -c E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\croutine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/croutine.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/croutine.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\croutine.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\croutine.c.obj -c E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\croutine.c
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/croutine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/croutine.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\croutine.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\croutine.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\croutine.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\croutine.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/croutine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/croutine.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\croutine.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\croutine.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\croutine.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\croutine.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/event_groups.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/event_groups.c.obj: E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/event_groups.c
+CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/event_groups.c.obj: E:/Desktop/new/1.0/V2/Drivers/FreeRTOS_M4_gcc/src/event_groups.c
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/event_groups.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/event_groups.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/event_groups.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\event_groups.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\event_groups.c.obj -c E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\event_groups.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/event_groups.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/event_groups.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\event_groups.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\event_groups.c.obj -c E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\event_groups.c
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/event_groups.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/event_groups.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\event_groups.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\event_groups.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\event_groups.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\event_groups.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/event_groups.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/event_groups.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\event_groups.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\event_groups.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\event_groups.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\event_groups.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/list.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/list.c.obj: E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/list.c
+CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/list.c.obj: E:/Desktop/new/1.0/V2/Drivers/FreeRTOS_M4_gcc/src/list.c
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/list.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/list.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/list.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\list.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\list.c.obj -c E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/list.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/list.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\list.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\list.c.obj -c E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\list.c
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/list.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\list.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\list.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\list.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\list.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/list.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\list.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\list.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\list.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\list.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/queue.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/queue.c.obj: E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/queue.c
+CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/queue.c.obj: E:/Desktop/new/1.0/V2/Drivers/FreeRTOS_M4_gcc/src/queue.c
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/queue.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/queue.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/queue.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\queue.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\queue.c.obj -c E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/queue.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/queue.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\queue.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\queue.c.obj -c E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\queue.c
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/queue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/queue.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\queue.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\queue.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\queue.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\queue.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/queue.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\queue.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\queue.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\queue.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\queue.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c.obj: E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c
+CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c.obj: E:/Desktop/new/1.0/V2/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c.obj -c E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c.obj -c E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/stream_buffer.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\stream_buffer.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/tasks.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/tasks.c.obj: E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/tasks.c
+CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/tasks.c.obj: E:/Desktop/new/1.0/V2/Drivers/FreeRTOS_M4_gcc/src/tasks.c
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/tasks.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/tasks.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/tasks.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\tasks.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\tasks.c.obj -c E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\tasks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/tasks.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/tasks.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\tasks.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\tasks.c.obj -c E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\tasks.c
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/tasks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/tasks.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\tasks.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\tasks.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\tasks.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\tasks.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/tasks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/tasks.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\tasks.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\tasks.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\tasks.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\tasks.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/timers.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/timers.c.obj: E:/MCU/robot/V2/Drivers/FreeRTOS_M4_gcc/src/timers.c
+CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/timers.c.obj: E:/Desktop/new/1.0/V2/Drivers/FreeRTOS_M4_gcc/src/timers.c
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/timers.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/timers.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/timers.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\timers.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\timers.c.obj -c E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\timers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/timers.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/timers.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\timers.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\timers.c.obj -c E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\timers.c
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/timers.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/timers.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\timers.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\timers.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\timers.c > CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\timers.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/timers.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/FreeRTOS_M4_gcc/src/timers.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\src\timers.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\timers.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\src\timers.c -o CMakeFiles\V2.elf.dir\Drivers\FreeRTOS_M4_gcc\src\timers.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: E:/MCU/robot/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: E:/Desktop/new/1.0/V2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
-
-CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.obj: E:/MCU/robot/V2/Drivers/bsp/Step_Motor/motor.c
-CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\Step_Motor\motor.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\Step_Motor\motor.c.obj -c E:\MCU\robot\V2\Drivers\bsp\Step_Motor\motor.c
-
-CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\Step_Motor\motor.c > CMakeFiles\V2.elf.dir\Drivers\bsp\Step_Motor\motor.c.i
-
-CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\Step_Motor\motor.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\Step_Motor\motor.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\V2.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_bitmap.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_box.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_buffer.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_circle.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_circle.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_cleardisplay.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_cleardisplay.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_memory.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_memory.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_d_setup.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_d_setup.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_font.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_font.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_fonts.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_fonts.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_hvline.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_hvline.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_input_value.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_input_value.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_intersection.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_intersection.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_kerning.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_kerning.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_line.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_line.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_ll_hvline.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_ll_hvline.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_message.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_message.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_polygon.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_polygon.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_selection_list.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_selection_list.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_setup.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8g2_setup.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8g2.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8g2.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8log_u8x8.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8log_u8x8.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_8x8.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_8x8.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_byte.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_byte.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_cad.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_cad.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_capture.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_capture.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_d_ssd1306_128x64_noname.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_d_ssd1306_128x64_noname.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_debounce.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_debounce.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_display.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_display.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_fonts.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_fonts.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_gpio.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_gpio.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_input_value.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_input_value.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_message.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_message.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_selection_list.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_selection_list.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_setup.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_setup.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_string.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_string.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u16toa.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u16toa.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8x8_u8toa.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\csrc\u8x8_u8toa.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.obj: E:/MCU/robot/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c.obj -c E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c > CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/oled_driver/oled.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\oled_u8g2_hw_iic\oled_driver\oled.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.obj: E:/MCU/robot/V2/Drivers/bsp/task/App/app_task.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/task/App/app_task.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\task\App\app_task.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\App\app_task.c.obj -c E:\MCU\robot\V2\Drivers\bsp\task\App\app_task.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\task\App\app_task.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\App\app_task.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\task\App\app_task.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\task\App\app_task.c > CMakeFiles\V2.elf.dir\Drivers\bsp\task\App\app_task.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\task\App\app_task.c > CMakeFiles\V2.elf.dir\Drivers\bsp\task\App\app_task.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/task/App/app_task.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\task\App\app_task.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\App\app_task.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\task\App\app_task.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\App\app_task.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.obj: E:/MCU/robot/V2/Drivers/bsp/task/Motor/motor_task.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/task/Motor/motor_task.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\task\Motor\motor_task.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\Motor\motor_task.c.obj -c E:\MCU\robot\V2\Drivers\bsp\task\Motor\motor_task.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\task\Motor\motor_task.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\Motor\motor_task.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\task\Motor\motor_task.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\task\Motor\motor_task.c > CMakeFiles\V2.elf.dir\Drivers\bsp\task\Motor\motor_task.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\task\Motor\motor_task.c > CMakeFiles\V2.elf.dir\Drivers\bsp\task\Motor\motor_task.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/task/Motor/motor_task.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\task\Motor\motor_task.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\Motor\motor_task.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\task\Motor\motor_task.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\Motor\motor_task.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.obj: E:/MCU/robot/V2/Drivers/bsp/task/Timer/timer_task.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/task/Timer/timer_task.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\task\Timer\timer_task.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\Timer\timer_task.c.obj -c E:\MCU\robot\V2\Drivers\bsp\task\Timer\timer_task.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\task\Timer\timer_task.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\Timer\timer_task.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\task\Timer\timer_task.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\task\Timer\timer_task.c > CMakeFiles\V2.elf.dir\Drivers\bsp\task\Timer\timer_task.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\task\Timer\timer_task.c > CMakeFiles\V2.elf.dir\Drivers\bsp\task\Timer\timer_task.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/task/Timer/timer_task.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\task\Timer\timer_task.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\Timer\timer_task.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\task\Timer\timer_task.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\Timer\timer_task.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.obj: E:/MCU/robot/V2/Drivers/bsp/task/Usart/usart_task.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/task/Usart/usart_task.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\task\Usart\usart_task.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\Usart\usart_task.c.obj -c E:\MCU\robot\V2\Drivers\bsp\task\Usart\usart_task.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\task\Usart\usart_task.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\Usart\usart_task.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\task\Usart\usart_task.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\task\Usart\usart_task.c > CMakeFiles\V2.elf.dir\Drivers\bsp\task\Usart\usart_task.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\task\Usart\usart_task.c > CMakeFiles\V2.elf.dir\Drivers\bsp\task\Usart\usart_task.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/task/Usart/usart_task.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\task\Usart\usart_task.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\Usart\usart_task.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\task\Usart\usart_task.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\Usart\usart_task.c.s
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.obj: E:/MCU/robot/V2/Drivers/bsp/task/kinematics/kinematics_task.c
+CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.obj: E:/Desktop/new/1.0/V2/Drivers/bsp/task/kinematics/kinematics_task.c
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\task\kinematics\kinematics_task.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\kinematics\kinematics_task.c.obj -c E:\MCU\robot\V2\Drivers\bsp\task\kinematics\kinematics_task.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.obj -MF CMakeFiles\V2.elf.dir\Drivers\bsp\task\kinematics\kinematics_task.c.obj.d -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\kinematics\kinematics_task.c.obj -c E:\Desktop\new\1.0\V2\Drivers\bsp\task\kinematics\kinematics_task.c
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Drivers\bsp\task\kinematics\kinematics_task.c > CMakeFiles\V2.elf.dir\Drivers\bsp\task\kinematics\kinematics_task.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Drivers\bsp\task\kinematics\kinematics_task.c > CMakeFiles\V2.elf.dir\Drivers\bsp\task\kinematics\kinematics_task.c.i
 
 CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Drivers/bsp/task/kinematics/kinematics_task.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Drivers\bsp\task\kinematics\kinematics_task.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\kinematics\kinematics_task.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Drivers\bsp\task\kinematics\kinematics_task.c -o CMakeFiles\V2.elf.dir\Drivers\bsp\task\kinematics\kinematics_task.c.s
 
 CMakeFiles/V2.elf.dir/Src/gpio.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Src/gpio.c.obj: E:/MCU/robot/V2/Src/gpio.c
+CMakeFiles/V2.elf.dir/Src/gpio.c.obj: E:/Desktop/new/1.0/V2/Src/gpio.c
 CMakeFiles/V2.elf.dir/Src/gpio.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/V2.elf.dir/Src/gpio.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/gpio.c.obj -MF CMakeFiles\V2.elf.dir\Src\gpio.c.obj.d -o CMakeFiles\V2.elf.dir\Src\gpio.c.obj -c E:\MCU\robot\V2\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/V2.elf.dir/Src/gpio.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/gpio.c.obj -MF CMakeFiles\V2.elf.dir\Src\gpio.c.obj.d -o CMakeFiles\V2.elf.dir\Src\gpio.c.obj -c E:\Desktop\new\1.0\V2\Src\gpio.c
 
 CMakeFiles/V2.elf.dir/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Src/gpio.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Src\gpio.c > CMakeFiles\V2.elf.dir\Src\gpio.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Src\gpio.c > CMakeFiles\V2.elf.dir\Src\gpio.c.i
 
 CMakeFiles/V2.elf.dir/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Src/gpio.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Src\gpio.c -o CMakeFiles\V2.elf.dir\Src\gpio.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Src\gpio.c -o CMakeFiles\V2.elf.dir\Src\gpio.c.s
 
 CMakeFiles/V2.elf.dir/Src/i2c.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Src/i2c.c.obj: E:/MCU/robot/V2/Src/i2c.c
+CMakeFiles/V2.elf.dir/Src/i2c.c.obj: E:/Desktop/new/1.0/V2/Src/i2c.c
 CMakeFiles/V2.elf.dir/Src/i2c.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/V2.elf.dir/Src/i2c.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/i2c.c.obj -MF CMakeFiles\V2.elf.dir\Src\i2c.c.obj.d -o CMakeFiles\V2.elf.dir\Src\i2c.c.obj -c E:\MCU\robot\V2\Src\i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/V2.elf.dir/Src/i2c.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/i2c.c.obj -MF CMakeFiles\V2.elf.dir\Src\i2c.c.obj.d -o CMakeFiles\V2.elf.dir\Src\i2c.c.obj -c E:\Desktop\new\1.0\V2\Src\i2c.c
 
 CMakeFiles/V2.elf.dir/Src/i2c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Src/i2c.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Src\i2c.c > CMakeFiles\V2.elf.dir\Src\i2c.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Src\i2c.c > CMakeFiles\V2.elf.dir\Src\i2c.c.i
 
 CMakeFiles/V2.elf.dir/Src/i2c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Src/i2c.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Src\i2c.c -o CMakeFiles\V2.elf.dir\Src\i2c.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Src\i2c.c -o CMakeFiles\V2.elf.dir\Src\i2c.c.s
 
 CMakeFiles/V2.elf.dir/Src/main.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Src/main.c.obj: E:/MCU/robot/V2/Src/main.c
+CMakeFiles/V2.elf.dir/Src/main.c.obj: E:/Desktop/new/1.0/V2/Src/main.c
 CMakeFiles/V2.elf.dir/Src/main.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/V2.elf.dir/Src/main.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/main.c.obj -MF CMakeFiles\V2.elf.dir\Src\main.c.obj.d -o CMakeFiles\V2.elf.dir\Src\main.c.obj -c E:\MCU\robot\V2\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/V2.elf.dir/Src/main.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/main.c.obj -MF CMakeFiles\V2.elf.dir\Src\main.c.obj.d -o CMakeFiles\V2.elf.dir\Src\main.c.obj -c E:\Desktop\new\1.0\V2\Src\main.c
 
 CMakeFiles/V2.elf.dir/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Src/main.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Src\main.c > CMakeFiles\V2.elf.dir\Src\main.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Src\main.c > CMakeFiles\V2.elf.dir\Src\main.c.i
 
 CMakeFiles/V2.elf.dir/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Src/main.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Src\main.c -o CMakeFiles\V2.elf.dir\Src\main.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Src\main.c -o CMakeFiles\V2.elf.dir\Src\main.c.s
 
 CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: E:/MCU/robot/V2/Src/stm32f4xx_hal_msp.c
+CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: E:/Desktop/new/1.0/V2/Src/stm32f4xx_hal_msp.c
 CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_msp.c.obj -c E:\MCU\robot\V2\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_msp.c.obj -c E:\Desktop\new\1.0\V2\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Src\stm32f4xx_hal_msp.c > CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_msp.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Src\stm32f4xx_hal_msp.c > CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Src\stm32f4xx_hal_msp.c -o CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_msp.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Src\stm32f4xx_hal_msp.c -o CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_msp.c.s
 
 CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_timebase_tim.c.obj: E:/MCU/robot/V2/Src/stm32f4xx_hal_timebase_tim.c
+CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_timebase_tim.c.obj: E:/Desktop/new/1.0/V2/Src/stm32f4xx_hal_timebase_tim.c
 CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_timebase_tim.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_timebase_tim.c.obj -MF CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_timebase_tim.c.obj.d -o CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_timebase_tim.c.obj -c E:\MCU\robot\V2\Src\stm32f4xx_hal_timebase_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_timebase_tim.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_timebase_tim.c.obj -MF CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_timebase_tim.c.obj.d -o CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_timebase_tim.c.obj -c E:\Desktop\new\1.0\V2\Src\stm32f4xx_hal_timebase_tim.c
 
 CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_timebase_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_timebase_tim.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Src\stm32f4xx_hal_timebase_tim.c > CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_timebase_tim.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Src\stm32f4xx_hal_timebase_tim.c > CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_timebase_tim.c.i
 
 CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_timebase_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_timebase_tim.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Src\stm32f4xx_hal_timebase_tim.c -o CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_timebase_tim.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Src\stm32f4xx_hal_timebase_tim.c -o CMakeFiles\V2.elf.dir\Src\stm32f4xx_hal_timebase_tim.c.s
 
 CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.obj: E:/MCU/robot/V2/Src/stm32f4xx_it.c
+CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.obj: E:/Desktop/new/1.0/V2/Src/stm32f4xx_it.c
 CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.obj -MF CMakeFiles\V2.elf.dir\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\V2.elf.dir\Src\stm32f4xx_it.c.obj -c E:\MCU\robot\V2\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.obj -MF CMakeFiles\V2.elf.dir\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\V2.elf.dir\Src\stm32f4xx_it.c.obj -c E:\Desktop\new\1.0\V2\Src\stm32f4xx_it.c
 
 CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Src\stm32f4xx_it.c > CMakeFiles\V2.elf.dir\Src\stm32f4xx_it.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Src\stm32f4xx_it.c > CMakeFiles\V2.elf.dir\Src\stm32f4xx_it.c.i
 
 CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Src/stm32f4xx_it.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Src\stm32f4xx_it.c -o CMakeFiles\V2.elf.dir\Src\stm32f4xx_it.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Src\stm32f4xx_it.c -o CMakeFiles\V2.elf.dir\Src\stm32f4xx_it.c.s
 
 CMakeFiles/V2.elf.dir/Src/syscalls.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Src/syscalls.c.obj: E:/MCU/robot/V2/Src/syscalls.c
+CMakeFiles/V2.elf.dir/Src/syscalls.c.obj: E:/Desktop/new/1.0/V2/Src/syscalls.c
 CMakeFiles/V2.elf.dir/Src/syscalls.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/V2.elf.dir/Src/syscalls.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/syscalls.c.obj -MF CMakeFiles\V2.elf.dir\Src\syscalls.c.obj.d -o CMakeFiles\V2.elf.dir\Src\syscalls.c.obj -c E:\MCU\robot\V2\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/V2.elf.dir/Src/syscalls.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/syscalls.c.obj -MF CMakeFiles\V2.elf.dir\Src\syscalls.c.obj.d -o CMakeFiles\V2.elf.dir\Src\syscalls.c.obj -c E:\Desktop\new\1.0\V2\Src\syscalls.c
 
 CMakeFiles/V2.elf.dir/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Src/syscalls.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Src\syscalls.c > CMakeFiles\V2.elf.dir\Src\syscalls.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Src\syscalls.c > CMakeFiles\V2.elf.dir\Src\syscalls.c.i
 
 CMakeFiles/V2.elf.dir/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Src/syscalls.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Src\syscalls.c -o CMakeFiles\V2.elf.dir\Src\syscalls.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Src\syscalls.c -o CMakeFiles\V2.elf.dir\Src\syscalls.c.s
 
 CMakeFiles/V2.elf.dir/Src/sysmem.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Src/sysmem.c.obj: E:/MCU/robot/V2/Src/sysmem.c
+CMakeFiles/V2.elf.dir/Src/sysmem.c.obj: E:/Desktop/new/1.0/V2/Src/sysmem.c
 CMakeFiles/V2.elf.dir/Src/sysmem.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/V2.elf.dir/Src/sysmem.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/sysmem.c.obj -MF CMakeFiles\V2.elf.dir\Src\sysmem.c.obj.d -o CMakeFiles\V2.elf.dir\Src\sysmem.c.obj -c E:\MCU\robot\V2\Src\sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/V2.elf.dir/Src/sysmem.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/sysmem.c.obj -MF CMakeFiles\V2.elf.dir\Src\sysmem.c.obj.d -o CMakeFiles\V2.elf.dir\Src\sysmem.c.obj -c E:\Desktop\new\1.0\V2\Src\sysmem.c
 
 CMakeFiles/V2.elf.dir/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Src/sysmem.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Src\sysmem.c > CMakeFiles\V2.elf.dir\Src\sysmem.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Src\sysmem.c > CMakeFiles\V2.elf.dir\Src\sysmem.c.i
 
 CMakeFiles/V2.elf.dir/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Src/sysmem.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Src\sysmem.c -o CMakeFiles\V2.elf.dir\Src\sysmem.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Src\sysmem.c -o CMakeFiles\V2.elf.dir\Src\sysmem.c.s
 
 CMakeFiles/V2.elf.dir/Src/system_stm32f4xx.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Src/system_stm32f4xx.c.obj: E:/MCU/robot/V2/Src/system_stm32f4xx.c
+CMakeFiles/V2.elf.dir/Src/system_stm32f4xx.c.obj: E:/Desktop/new/1.0/V2/Src/system_stm32f4xx.c
 CMakeFiles/V2.elf.dir/Src/system_stm32f4xx.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/V2.elf.dir/Src/system_stm32f4xx.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/system_stm32f4xx.c.obj -MF CMakeFiles\V2.elf.dir\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\V2.elf.dir\Src\system_stm32f4xx.c.obj -c E:\MCU\robot\V2\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/V2.elf.dir/Src/system_stm32f4xx.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/system_stm32f4xx.c.obj -MF CMakeFiles\V2.elf.dir\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\V2.elf.dir\Src\system_stm32f4xx.c.obj -c E:\Desktop\new\1.0\V2\Src\system_stm32f4xx.c
 
 CMakeFiles/V2.elf.dir/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Src/system_stm32f4xx.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Src\system_stm32f4xx.c > CMakeFiles\V2.elf.dir\Src\system_stm32f4xx.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Src\system_stm32f4xx.c > CMakeFiles\V2.elf.dir\Src\system_stm32f4xx.c.i
 
 CMakeFiles/V2.elf.dir/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Src/system_stm32f4xx.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Src\system_stm32f4xx.c -o CMakeFiles\V2.elf.dir\Src\system_stm32f4xx.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Src\system_stm32f4xx.c -o CMakeFiles\V2.elf.dir\Src\system_stm32f4xx.c.s
 
 CMakeFiles/V2.elf.dir/Src/tim.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Src/tim.c.obj: E:/MCU/robot/V2/Src/tim.c
+CMakeFiles/V2.elf.dir/Src/tim.c.obj: E:/Desktop/new/1.0/V2/Src/tim.c
 CMakeFiles/V2.elf.dir/Src/tim.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/V2.elf.dir/Src/tim.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/tim.c.obj -MF CMakeFiles\V2.elf.dir\Src\tim.c.obj.d -o CMakeFiles\V2.elf.dir\Src\tim.c.obj -c E:\MCU\robot\V2\Src\tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/V2.elf.dir/Src/tim.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/tim.c.obj -MF CMakeFiles\V2.elf.dir\Src\tim.c.obj.d -o CMakeFiles\V2.elf.dir\Src\tim.c.obj -c E:\Desktop\new\1.0\V2\Src\tim.c
 
 CMakeFiles/V2.elf.dir/Src/tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Src/tim.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Src\tim.c > CMakeFiles\V2.elf.dir\Src\tim.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Src\tim.c > CMakeFiles\V2.elf.dir\Src\tim.c.i
 
 CMakeFiles/V2.elf.dir/Src/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Src/tim.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Src\tim.c -o CMakeFiles\V2.elf.dir\Src\tim.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Src\tim.c -o CMakeFiles\V2.elf.dir\Src\tim.c.s
 
 CMakeFiles/V2.elf.dir/Src/usart.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Src/usart.c.obj: E:/MCU/robot/V2/Src/usart.c
+CMakeFiles/V2.elf.dir/Src/usart.c.obj: E:/Desktop/new/1.0/V2/Src/usart.c
 CMakeFiles/V2.elf.dir/Src/usart.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/V2.elf.dir/Src/usart.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/usart.c.obj -MF CMakeFiles\V2.elf.dir\Src\usart.c.obj.d -o CMakeFiles\V2.elf.dir\Src\usart.c.obj -c E:\MCU\robot\V2\Src\usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/V2.elf.dir/Src/usart.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/Src/usart.c.obj -MF CMakeFiles\V2.elf.dir\Src\usart.c.obj.d -o CMakeFiles\V2.elf.dir\Src\usart.c.obj -c E:\Desktop\new\1.0\V2\Src\usart.c
 
 CMakeFiles/V2.elf.dir/Src/usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/Src/usart.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\Src\usart.c > CMakeFiles\V2.elf.dir\Src\usart.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\Src\usart.c > CMakeFiles\V2.elf.dir\Src\usart.c.i
 
 CMakeFiles/V2.elf.dir/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/Src/usart.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\Src\usart.c -o CMakeFiles\V2.elf.dir\Src\usart.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\Src\usart.c -o CMakeFiles\V2.elf.dir\Src\usart.c.s
 
 CMakeFiles/V2.elf.dir/Startup/startup_stm32f411ceux.s.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/Startup/startup_stm32f411ceux.s.obj: E:/MCU/robot/V2/Startup/startup_stm32f411ceux.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building ASM object CMakeFiles/V2.elf.dir/Startup/startup_stm32f411ceux.s.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\V2.elf.dir\Startup\startup_stm32f411ceux.s.obj -c E:\MCU\robot\V2\Startup\startup_stm32f411ceux.s
+CMakeFiles/V2.elf.dir/Startup/startup_stm32f411ceux.s.obj: E:/Desktop/new/1.0/V2/Startup/startup_stm32f411ceux.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building ASM object CMakeFiles/V2.elf.dir/Startup/startup_stm32f411ceux.s.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\V2.elf.dir\Startup\startup_stm32f411ceux.s.obj -c E:\Desktop\new\1.0\V2\Startup\startup_stm32f411ceux.s
 
 CMakeFiles/V2.elf.dir/Startup/startup_stm32f411ceux.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/V2.elf.dir/Startup/startup_stm32f411ceux.s.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E E:\MCU\robot\V2\Startup\startup_stm32f411ceux.s > CMakeFiles\V2.elf.dir\Startup\startup_stm32f411ceux.s.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E E:\Desktop\new\1.0\V2\Startup\startup_stm32f411ceux.s > CMakeFiles\V2.elf.dir\Startup\startup_stm32f411ceux.s.i
 
 CMakeFiles/V2.elf.dir/Startup/startup_stm32f411ceux.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/V2.elf.dir/Startup/startup_stm32f411ceux.s.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S E:\MCU\robot\V2\Startup\startup_stm32f411ceux.s -o CMakeFiles\V2.elf.dir\Startup\startup_stm32f411ceux.s.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S E:\Desktop\new\1.0\V2\Startup\startup_stm32f411ceux.s -o CMakeFiles\V2.elf.dir\Startup\startup_stm32f411ceux.s.s
 
 CMakeFiles/V2.elf.dir/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c.obj: E:/MCU/robot/V2/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c
+CMakeFiles/V2.elf.dir/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c.obj: E:/Desktop/new/1.0/V2/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c
 CMakeFiles/V2.elf.dir/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/V2.elf.dir/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c.obj -MF CMakeFiles\V2.elf.dir\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c.obj.d -o CMakeFiles\V2.elf.dir\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c.obj -c E:\MCU\robot\V2\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/V2.elf.dir/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c.obj -MF CMakeFiles\V2.elf.dir\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c.obj.d -o CMakeFiles\V2.elf.dir\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c.obj -c E:\Desktop\new\1.0\V2\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c
 
 CMakeFiles/V2.elf.dir/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c > CMakeFiles\V2.elf.dir\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c > CMakeFiles\V2.elf.dir\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c.i
 
 CMakeFiles/V2.elf.dir/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/dsplib/DSP/Src/BasicMathFunctions/BasicMathFunctions.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c -o CMakeFiles\V2.elf.dir\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c -o CMakeFiles\V2.elf.dir\dsplib\DSP\Src\BasicMathFunctions\BasicMathFunctions.c.s
 
 CMakeFiles/V2.elf.dir/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c.obj: CMakeFiles/V2.elf.dir/flags.make
-CMakeFiles/V2.elf.dir/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c.obj: E:/MCU/robot/V2/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c
+CMakeFiles/V2.elf.dir/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c.obj: E:/Desktop/new/1.0/V2/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c
 CMakeFiles/V2.elf.dir/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c.obj: CMakeFiles/V2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/V2.elf.dir/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c.obj"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c.obj -MF CMakeFiles\V2.elf.dir\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c.obj.d -o CMakeFiles\V2.elf.dir\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c.obj -c E:\MCU\robot\V2\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/V2.elf.dir/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c.obj"
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/V2.elf.dir/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c.obj -MF CMakeFiles\V2.elf.dir\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c.obj.d -o CMakeFiles\V2.elf.dir\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c.obj -c E:\Desktop\new\1.0\V2\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c
 
 CMakeFiles/V2.elf.dir/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/V2.elf.dir/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c.i"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\MCU\robot\V2\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c > CMakeFiles\V2.elf.dir\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c.i
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Desktop\new\1.0\V2\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c > CMakeFiles\V2.elf.dir\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c.i
 
 CMakeFiles/V2.elf.dir/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/V2.elf.dir/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c.s"
-	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\MCU\robot\V2\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c -o CMakeFiles\V2.elf.dir\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c.s
+	D:\arm-none-eabi-gcc\2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Desktop\new\1.0\V2\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c -o CMakeFiles\V2.elf.dir\dsplib\DSP\Src\MatrixFunctions\MatrixFunctions.c.s
 
 # Object files for target V2.elf
 V2_elf_OBJECTS = \
@@ -1300,7 +1286,6 @@ V2_elf_OBJECTS = \
 "CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
-"CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.obj" \
 "CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj" \
 "CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.obj" \
 "CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.obj" \
@@ -1390,7 +1375,6 @@ V2.elf: CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc
 V2.elf: CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 V2.elf: CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 V2.elf: CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-V2.elf: CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.obj
 V2.elf: CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj
 V2.elf: CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.obj
 V2.elf: CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_buffer.c.obj
@@ -1452,12 +1436,12 @@ V2.elf: CMakeFiles/V2.elf.dir/dsplib/DSP/Src/MatrixFunctions/MatrixFunctions.c.o
 V2.elf: CMakeFiles/V2.elf.dir/build.make
 V2.elf: CMakeFiles/V2.elf.dir/objects1.rsp
 V2.elf: CMakeFiles/V2.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\MCU\robot\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Linking C executable V2.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Linking C executable V2.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\V2.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building E:/MCU/robot/V2/cmake-build-debug/V2.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building E:/MCU/robot/V2/cmake-build-debug/V2.bin"
-	arm-none-eabi-objcopy -Oihex E:/MCU/robot/V2/cmake-build-debug/V2.elf E:/MCU/robot/V2/cmake-build-debug/V2.hex
-	arm-none-eabi-objcopy -Obinary E:/MCU/robot/V2/cmake-build-debug/V2.elf E:/MCU/robot/V2/cmake-build-debug/V2.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building E:/Desktop/new/1.0/V2/cmake-build-debug/V2.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building E:/Desktop/new/1.0/V2/cmake-build-debug/V2.bin"
+	arm-none-eabi-objcopy -Oihex E:/Desktop/new/1.0/V2/cmake-build-debug/V2.elf E:/Desktop/new/1.0/V2/cmake-build-debug/V2.hex
+	arm-none-eabi-objcopy -Obinary E:/Desktop/new/1.0/V2/cmake-build-debug/V2.elf E:/Desktop/new/1.0/V2/cmake-build-debug/V2.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/V2.elf.dir/build: V2.elf
@@ -1468,6 +1452,6 @@ CMakeFiles/V2.elf.dir/clean:
 .PHONY : CMakeFiles/V2.elf.dir/clean
 
 CMakeFiles/V2.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\MCU\robot\V2 E:\MCU\robot\V2 E:\MCU\robot\V2\cmake-build-debug E:\MCU\robot\V2\cmake-build-debug E:\MCU\robot\V2\cmake-build-debug\CMakeFiles\V2.elf.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\Desktop\new\1.0\V2 E:\Desktop\new\1.0\V2 E:\Desktop\new\1.0\V2\cmake-build-debug E:\Desktop\new\1.0\V2\cmake-build-debug E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles\V2.elf.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/V2.elf.dir/depend
 

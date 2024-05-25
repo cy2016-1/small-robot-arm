@@ -20,7 +20,7 @@ TaskHandle_t Motor2_Init_Task_Handle = NULL;
 TaskHandle_t Motor3_Init_Task_Handle = NULL;
 TaskHandle_t Motor4_Init_Task_Handle = NULL;
 TaskHandle_t Motor5_Init_Task_Handle = NULL;
-TaskHandle_t Motor6_Init_Task_Handle = NULL;
+
 
 //电机控制结构体
 Motor_ctrl Motor[7];
@@ -248,7 +248,7 @@ void Motor4_Init_Task(void *pvParameters)
     {
       vTaskDelay(pdMS_TO_TICKS(10));
     }
-    Motor[4].now_pulse = 9200;
+    Motor[4].now_pulse = 9000;
     Motor[4].target_pulse = 0;
     Motor[4].en = 1;
     while(Motor[4].en == 1)
@@ -313,12 +313,21 @@ void Motor5_Init_Task(void *pvParameters)
     }
     HAL_TIM_PWM_Stop_IT(&htim3,TIM_CHANNEL_1);//第三轴到位
 
-    xTaskCreate(Motor6_Init_Task, "Motor6_Init_Task", 128, NULL, 3, &Motor6_Init_Task_Handle);
-    while(Motor6_Init_Task_Handle == NULL)
+    xTaskCreate(App_Run_Task_Init, "App_Run_Task_Init", 512, NULL, 3, &App_Run_Task_Init_Handle);
+    vTaskDelay(pdMS_TO_TICKS(10));
+
+    Motor[1].target_pulse = 0;
+    Motor[2].target_pulse = 0;
+    Motor[3].target_pulse = 0;
+    Motor[4].target_pulse = 0;
+    Motor[5].target_pulse = 4000;
+
+    for (int i = 0; i < 6; ++i)
     {
-      vTaskDelay(pdMS_TO_TICKS(10));
+      Motor[i+1].en = 1;//开机
     }
 
+    vTaskDelay(pdMS_TO_TICKS(10));
     vTaskDelete(Motor5_Init_Task_Handle);
   }
 
@@ -353,48 +362,34 @@ void Motor5_Init_Task(void *pvParameters)
     }
     HAL_TIM_PWM_Stop_IT(&htim3,TIM_CHANNEL_1);//第三轴到位
 
+    xTaskCreate(App_Run_Task_Init, "App_Run_Task_Init", 512, NULL, 3, &App_Run_Task_Init_Handle);
+
     vTaskDelay(pdMS_TO_TICKS(10));
 
-    xTaskCreate(Motor6_Init_Task, "Motor6_Init_Task", 128, NULL, 3, &Motor6_Init_Task_Handle);
-    while(Motor6_Init_Task_Handle == NULL)
+    Motor[1].target_pulse = 0;
+    Motor[2].target_pulse = 0;
+    Motor[3].target_pulse = 0;
+    Motor[4].target_pulse = 0;
+    Motor[5].target_pulse = 4000;
+    Motor[6].target_pulse = 0;
+
+    for (int i = 0; i < 6; ++i)
     {
-      vTaskDelay(pdMS_TO_TICKS(10));
+      Motor[i+1].en = 1;//开机
+      Motor[i+1].speed = MOTOR_SPEED_MID;
     }
+
+    vTaskDelay(pdMS_TO_TICKS(10));
 
     vTaskDelete(Motor5_Init_Task_Handle);
   }
   vTaskDelay(pdMS_TO_TICKS(10));
 }
 
-void Motor6_Init_Task(void *pvParameters)
-{
-  Motor[6].speed = MOTOR_SPEED_MID;
-  __HAL_TIM_SET_PRESCALER(&htim9,Motor[6].speed);
-
-  Motor[6].en = 0;
-
-  vTaskDelay(pdMS_TO_TICKS(200));
-
-  Motor[6].now_pulse = -20;
-  Motor[6].target_pulse = 0;
-  Motor[6].en = 1;
-  HAL_TIM_PWM_Start_IT(&htim9,TIM_CHANNEL_1);
-
-  while(Motor[6].en == 1)
-  {
-    vTaskDelay(pdMS_TO_TICKS(10));
-  }
-
-  App_Run_Task_Init();//创建apptask
-  vTaskDelay(pdMS_TO_TICKS(100));
-  vTaskDelete(Motor6_Init_Task_Handle);
-}
-
 
 //电机运行任务
 void Motor1_Run_Task(void *pvParameters)//tim1 ch1
 {
-
   Motor[1].max_pulse = 11500;
   Motor[1].min_pulse = -11500;
   Motor[1].now_pulse = 0;
@@ -538,7 +533,6 @@ void Motor6_Run_Task(void *pvParameters)//tim9 ch1
   {
     if(Motor[6].en == 1)
     {
-
       __HAL_TIM_SET_PRESCALER(&htim9,Motor[6].speed);
       HAL_TIM_PWM_Start_IT(&htim9,TIM_CHANNEL_1);
     }

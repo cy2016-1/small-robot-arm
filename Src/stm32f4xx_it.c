@@ -175,7 +175,6 @@ void DebugMon_Handler(void)
   * @brief This function handles Pendable request for system service.
   */
 
-
 /**
   * @brief This function handles System tick timer.
   */

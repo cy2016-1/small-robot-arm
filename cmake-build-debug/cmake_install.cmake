@@ -1,4 +1,4 @@
-# Install script for directory: E:/MCU/robot/V2
+# Install script for directory: E:/Desktop/new/1.0/V2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/MCU/robot/V2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Desktop/new/1.0/V2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

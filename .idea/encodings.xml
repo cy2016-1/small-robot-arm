@@ -3,6 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Drivers/bsp/task/Motor/motor_task.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Drivers/bsp/task/Timer/timer_task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Drivers/bsp/task/Usart/usart_task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Drivers/bsp/task/kinematics/kinematics_task.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/main.c" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

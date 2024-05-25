@@ -53,8 +53,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj.d"
   "CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
   "CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d"
-  "CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.obj"
-  "CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.obj.d"
   "CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj"
   "CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj.d"
   "CMakeFiles/V2.elf.dir/Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_box.c.obj"

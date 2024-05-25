@@ -1,12 +1,13 @@
 CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: \
- E:\MCU\robot\V2\Src\stm32f4xx_hal_msp.c E:\MCU\robot\V2\Inc/main.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
- E:\MCU\robot\V2\Inc/stm32f4xx_hal_conf.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_def.h \
- E:\MCU\robot\V2\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f4xx.h \
- E:\MCU\robot\V2\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f411xe.h \
- E:\MCU\robot\V2\Drivers\CMSIS\Include/core_cm4.h \
+ E:\Desktop\new\1.0\V2\Src\stm32f4xx_hal_msp.c \
+ E:\Desktop\new\1.0\V2\Inc/main.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h \
+ E:\Desktop\new\1.0\V2\Inc/stm32f4xx_hal_conf.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_def.h \
+ E:\Desktop\new\1.0\V2\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f4xx.h \
+ E:\Desktop\new\1.0\V2\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f411xe.h \
+ E:\Desktop\new\1.0\V2\Drivers\CMSIS\Include/core_cm4.h \
  d:\arm-none-eabi-gcc\2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\stdint.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\machine\_default_types.h \
@@ -14,44 +15,44 @@ CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\_newlib_version.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\_intsup.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\_stdint.h \
- E:\MCU\robot\V2\Drivers\CMSIS\Include/cmsis_version.h \
- E:\MCU\robot\V2\Drivers\CMSIS\Include/cmsis_compiler.h \
- E:\MCU\robot\V2\Drivers\CMSIS\Include/cmsis_gcc.h \
- E:\MCU\robot\V2\Drivers\CMSIS\Include/mpu_armv7.h \
- E:\MCU\robot\V2\Drivers\CMSIS\Device\ST\STM32F4xx\Include/system_stm32f4xx.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/Legacy/stm32_hal_legacy.h \
+ E:\Desktop\new\1.0\V2\Drivers\CMSIS\Include/cmsis_version.h \
+ E:\Desktop\new\1.0\V2\Drivers\CMSIS\Include/cmsis_compiler.h \
+ E:\Desktop\new\1.0\V2\Drivers\CMSIS\Include/cmsis_gcc.h \
+ E:\Desktop\new\1.0\V2\Drivers\CMSIS\Include/mpu_armv7.h \
+ E:\Desktop\new\1.0\V2\Drivers\CMSIS\Device\ST\STM32F4xx\Include/system_stm32f4xx.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/Legacy/stm32_hal_legacy.h \
  d:\arm-none-eabi-gcc\2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc_ex.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio_ex.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_exti.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma_ex.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_cortex.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c_ex.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
- E:\MCU\robot\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/FreeRTOS.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/FreeRTOSConfig.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/projdefs.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/portable.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/deprecated_definitions.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F/portmacro.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/mpu_wrappers.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/task.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/list.h \
- E:\MCU\robot\V2\Inc/i2c.h E:\MCU\robot\V2\Inc/main.h \
- E:\MCU\robot\V2\Inc/tim.h E:\MCU\robot\V2\Inc/usart.h \
- E:\MCU\robot\V2\Inc/gpio.h \
- E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc/u8g2.h \
- E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc/u8x8.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc_ex.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_gpio_ex.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_exti.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_dma_ex.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_cortex.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c_ex.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
+ E:\Desktop\new\1.0\V2\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\inc/FreeRTOS.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\inc/FreeRTOSConfig.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\inc/projdefs.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\inc/portable.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\inc/deprecated_definitions.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\portable\RVDS\ARM_CM4F/portmacro.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\inc/mpu_wrappers.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\inc/task.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\inc/list.h \
+ E:\Desktop\new\1.0\V2\Inc/i2c.h E:\Desktop\new\1.0\V2\Inc/main.h \
+ E:\Desktop\new\1.0\V2\Inc/tim.h E:\Desktop\new\1.0\V2\Inc/usart.h \
+ E:\Desktop\new\1.0\V2\Inc/gpio.h \
+ E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc/u8g2.h \
+ E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\csrc/u8x8.h \
  d:\arm-none-eabi-gcc\2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h \
  d:\arm-none-eabi-gcc\2021.10\lib\gcc\arm-none-eabi\10.3.1\include-fixed\limits.h \
  d:\arm-none-eabi-gcc\2021.10\lib\gcc\arm-none-eabi\10.3.1\include-fixed\syslimits.h \
@@ -59,7 +60,7 @@ CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\newlib.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\cdefs.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\syslimits.h \
- E:\MCU\robot\V2\Drivers\bsp\oled_u8g2_hw_iic\oled_driver/oled.h \
+ E:\Desktop\new\1.0\V2\Drivers\bsp\oled_u8g2_hw_iic\oled_driver/oled.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\stdio.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\_ansi.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\config.h \
@@ -85,48 +86,49 @@ CMakeFiles/V2.elf.dir/Src/stm32f4xx_hal_msp.c.obj: \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\_locale.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\strings.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\string.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/queue.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/task.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/semphr.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/queue.h \
- E:\MCU\robot\V2\Drivers\FreeRTOS_M4_gcc\inc/timers.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\inc/queue.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\inc/task.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\inc/semphr.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\inc/queue.h \
+ E:\Desktop\new\1.0\V2\Drivers\FreeRTOS_M4_gcc\inc/timers.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\stdlib.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\machine\stdlib.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\alloca.h \
- E:\MCU\robot\V2\Drivers\bsp\task\Usart/usart_task.h \
- E:\MCU\robot\V2\Drivers\bsp\task\kinematics/kinematics_task.h \
+ E:\Desktop\new\1.0\V2\Drivers\bsp\task\Usart/usart_task.h \
+ E:\Desktop\new\1.0\V2\Drivers\bsp\task\kinematics/kinematics_task.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\math.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/arm_math.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/arm_math_types.h \
- E:\MCU\robot\V2\Drivers\CMSIS\Include/cmsis_compiler.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/arm_math.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/arm_math_types.h \
+ E:\Desktop\new\1.0\V2\Drivers\CMSIS\Include/cmsis_compiler.h \
  d:\arm-none-eabi-gcc\2021.10\lib\gcc\arm-none-eabi\10.3.1\include\float.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/arm_math_memory.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/none.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/arm_math_types.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/utils.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/basic_math_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/arm_math_memory.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/none.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/utils.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/interpolation_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/bayes_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/statistics_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/basic_math_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/fast_math_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/matrix_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/complex_math_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/statistics_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/controller_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/support_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/distance_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/matrix_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/svm_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/svm_defines.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/fast_math_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/transform_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/complex_math_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/filtering_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/support_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/quaternion_math_functions.h \
- E:\MCU\robot\V2\dsplib\DSP\Inc/dsp/window_functions.h \
- E:\MCU\robot\V2\Drivers\bsp\task\Motor/motor_task.h
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/arm_math_memory.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/none.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/arm_math_types.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/utils.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/basic_math_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/arm_math_memory.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/none.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/utils.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/interpolation_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/bayes_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/statistics_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/basic_math_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/fast_math_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/matrix_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/complex_math_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/statistics_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/controller_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/support_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/distance_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/matrix_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/svm_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/svm_defines.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/fast_math_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/transform_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/complex_math_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/filtering_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/support_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/quaternion_math_functions.h \
+ E:\Desktop\new\1.0\V2\dsplib\DSP\Inc/dsp/window_functions.h \
+ E:\Desktop\new\1.0\V2\Drivers\bsp\task\Motor/motor_task.h \
+ E:\Desktop\new\1.0\V2\Drivers\bsp\task\App/app_task.h

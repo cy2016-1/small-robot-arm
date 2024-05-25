@@ -21,7 +21,7 @@ extern TaskHandle_t Motor2_Init_Task_Handle;
 extern TaskHandle_t Motor3_Init_Task_Handle;
 extern TaskHandle_t Motor4_Init_Task_Handle;
 extern TaskHandle_t Motor5_Init_Task_Handle;
-extern TaskHandle_t Motor6_Init_Task_Handle;
+
 
 //电机控制宏
 //电机1
@@ -114,6 +114,6 @@ void Motor2_Init_Task(void *pvParameters);
 void Motor3_Init_Task(void *pvParameters);
 void Motor4_Init_Task(void *pvParameters);
 void Motor5_Init_Task(void *pvParameters);
-void Motor6_Init_Task(void *pvParameters);
+
 
 #endif //V2_MOTOR_TASK_H

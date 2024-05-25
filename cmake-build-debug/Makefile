@@ -56,10 +56,10 @@ RM = "D:\Clion\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\MCU\robot\V2
+CMAKE_SOURCE_DIR = E:\Desktop\new\1.0\V2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\MCU\robot\V2\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Desktop\new\1.0\V2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\MCU\robot\V2\cmake-build-debug\CMakeFiles E:\MCU\robot\V2\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles E:\Desktop\new\1.0\V2\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\MCU\robot\V2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Desktop\new\1.0\V2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -775,30 +775,6 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s: Drivers/STM32F4xx_HAL_Dri
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\V2.elf.dir\build.make CMakeFiles/V2.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
-
-Drivers/bsp/Step_Motor/motor.obj: Drivers/bsp/Step_Motor/motor.c.obj
-.PHONY : Drivers/bsp/Step_Motor/motor.obj
-
-# target to build an object file
-Drivers/bsp/Step_Motor/motor.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\V2.elf.dir\build.make CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.obj
-.PHONY : Drivers/bsp/Step_Motor/motor.c.obj
-
-Drivers/bsp/Step_Motor/motor.i: Drivers/bsp/Step_Motor/motor.c.i
-.PHONY : Drivers/bsp/Step_Motor/motor.i
-
-# target to preprocess a source file
-Drivers/bsp/Step_Motor/motor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\V2.elf.dir\build.make CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.i
-.PHONY : Drivers/bsp/Step_Motor/motor.c.i
-
-Drivers/bsp/Step_Motor/motor.s: Drivers/bsp/Step_Motor/motor.c.s
-.PHONY : Drivers/bsp/Step_Motor/motor.s
-
-# target to generate assembly for a file
-Drivers/bsp/Step_Motor/motor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\V2.elf.dir\build.make CMakeFiles/V2.elf.dir/Drivers/bsp/Step_Motor/motor.c.s
-.PHONY : Drivers/bsp/Step_Motor/motor.c.s
 
 Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.obj: Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.c.obj
 .PHONY : Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.obj
@@ -2266,9 +2242,6 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
-	@echo ... Drivers/bsp/Step_Motor/motor.obj
-	@echo ... Drivers/bsp/Step_Motor/motor.i
-	@echo ... Drivers/bsp/Step_Motor/motor.s
 	@echo ... Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.obj
 	@echo ... Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.i
 	@echo ... Drivers/bsp/oled_u8g2_hw_iic/csrc/u8g2_bitmap.s

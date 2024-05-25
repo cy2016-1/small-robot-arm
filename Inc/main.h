@@ -129,7 +129,7 @@ void Error_Handler(void);
 #include "usart_task.h"
 #include "kinematics_task.h"
 #include "motor_task.h"
-
+#include "app_task.h"
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

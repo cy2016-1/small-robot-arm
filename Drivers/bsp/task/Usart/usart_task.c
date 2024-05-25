@@ -10,82 +10,33 @@ uint8_t usart6_rec = 0;
 uint8_t usart6_recbuf[USART_REC_LEN] = {0};
 
 TaskHandle_t USART1_Task_Handler;
-TaskHandle_t USART6_Task_Handler;
+//TaskHandle_t USART6_Task_Handler;
 
+volatile int8_t usart1_flag = 0;
+volatile int8_t usart6_flag = 0;
 
 void USART1_Task(void *pvParameters)
 {
   TickType_t TickCount = xTaskGetTickCount();
-
-  int data_len = 0;
-
   for(;;)
   {
-    xTaskNotifyWait(0,0xffffffff,(uint32_t*)&data_len,portMAX_DELAY);//等待通知
-
-    for (int i = 0; i < 6; ++i) {
-      Motor[i+1].en = 0;//停机等待
-    }
-
-    if(usart1_recbuf[0] == 'A')
+    if(usart1_flag == 1)
     {
-      int num_buff1[6];
-      extractNumbers((const char*)usart1_recbuf,num_buff1,6);//将数据字符转换成数字
-
-      Motor[1].target_pulse = num_buff1[0];
-      Motor[2].target_pulse = num_buff1[1];
-      Motor[3].target_pulse = num_buff1[2];
-      Motor[4].target_pulse = num_buff1[3];
-      Motor[5].target_pulse = num_buff1[4];
-      Motor[6].target_pulse = num_buff1[5];
-
-    }
-
-    else if(usart1_recbuf[0] == 'S')
-    {
-      int num_buff2[1];
-      extractNumbers((const char *) usart1_recbuf, num_buff2, 1);//将数据字符转换成数字
-
-      Motor[1].speed = num_buff2[0] / 100000;
-      Motor[2].speed = (num_buff2[0] / 10000) % 10;
-      Motor[3].speed = (num_buff2[0] / 1000) % 10;
-      Motor[4].speed = (num_buff2[0] / 100) % 10;
-      Motor[5].speed = (num_buff2[0] / 10) % 10;
-      Motor[6].speed = num_buff2[0] % 10;
-
-      for (int i = 0; i < 6; ++i)
-      {
-        switch (Motor[i + 1].speed)
-        {
-          case 1:
-            Motor[i + 1].speed = MOTOR_SPEED_FAST;
-            break;
-          case 2:
-            Motor[i + 1].speed = MOTOR_SPEED_HIGH;
-            break;
-          case 3:
-            Motor[i + 1].speed = MOTOR_SPEED_MID;
-            break;
-          case 4:
-            Motor[i + 1].speed = MOTOR_SPEED_LOW;
-            break;
-          default:
-            break;
+      usart1_flag = 0;
+      for (int i = 0; i < 6; ++i) {
+        Motor[i+1].en = 0;//停机等待
+      }
+      if(usart1_recbuf[0] == 'A') {
+        for (int i = 0; i < 6; i++) {
+          printf("target[%d]= %d\r\n", i + 1, Motor[i + 1].target_pulse);
         }
       }
+      memset(usart1_recbuf,0,50);
+      for (int i = 0; i < 6; ++i)
+      {
+        Motor[i+1].en = 1;//开机
+      }
     }
-
-    memset(usart1_recbuf,0,50);
-    for(int i = 0;i<6;i++)
-    {
-      printf("target[%d]= %d   speed[%d]= %d\r\n",i+1,Motor[i+1].target_pulse,i+1,Motor[i+1].speed);
-    }
-
-    for (int i = 0; i < 6; ++i)
-    {
-      Motor[i+1].en = 1;//开机
-    }
-
     vTaskDelayUntil(&TickCount, pdMS_TO_TICKS(100));
   }
 }
@@ -103,9 +54,8 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
     usart1_recbuf[cnt1++] = usart1_rec;
     if(usart1_rec == END_FLAG)
     {
-      xTaskNotifyFromISR(USART1_Task_Handler,cnt1,eSetValueWithOverwrite,&pxTaskWoken);
+      usart1_flag = 1;
       cnt1 = 0;
-      portYIELD_FROM_ISR(pxTaskWoken);
     }
     else if(cnt1-1 == USART_REC_LEN)
     {
@@ -123,9 +73,8 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
     usart6_recbuf[cnt6++] = usart6_rec;
     if(usart6_rec == END_FLAG)
     {
-      vTaskNotifyGiveFromISR(Kinematics_IK_Task_Handle,&pxTaskWoken);
+      usart6_flag = 1;
       cnt6 = 0;
-      portYIELD_FROM_ISR(pxTaskWoken);
     }
     else if(cnt6-1 == USART_REC_LEN)
     {

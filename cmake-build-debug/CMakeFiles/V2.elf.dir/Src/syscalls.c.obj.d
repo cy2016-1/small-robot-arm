@@ -1,4 +1,5 @@
-CMakeFiles/V2.elf.dir/Src/syscalls.c.obj: E:\MCU\robot\V2\Src\syscalls.c \
+CMakeFiles/V2.elf.dir/Src/syscalls.c.obj: \
+ E:\Desktop\new\1.0\V2\Src\syscalls.c \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\sys\stat.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\_ansi.h \
  d:\arm-none-eabi-gcc\2021.10\arm-none-eabi\include\newlib.h \

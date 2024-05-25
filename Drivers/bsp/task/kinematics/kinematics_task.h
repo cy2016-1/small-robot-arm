@@ -10,12 +10,15 @@
 #include "math.h"
 #include "arm_math.h"
 
-typedef struct Openmv
-{
-    float x;
-    float y;
-}Openmv_t;
-extern Openmv_t openmv;
+
+extern const double dl1;  //轴1齿轮减速比 = 8  7.15
+extern const double dl2;  //轴2齿轮减速比 = 6
+extern const double dl3;  //轴3齿轮减速比 = 5
+extern const double dl4;  //轴4齿轮减速比 = 56/20 = 2.8
+extern const double dl5;  //轴5齿轮减速比 = 42/20 = 2.1
+extern const double dl6;  //轴6齿轮减速比 = 1
+
+
 
 extern TaskHandle_t Kinematics_IK_Task_Handle;
 void Kinematics_IK_Task(void* pvParameters);
@@ -38,6 +41,5 @@ void InverseK(float* Xik, float* Jik);//逆解，
   Jhome[6] = {角度1，角度2，角度3，角度4，角度5，角度6} ;
  *
  */
-
 
 #endif //__KINEMATICS_TASK_H
